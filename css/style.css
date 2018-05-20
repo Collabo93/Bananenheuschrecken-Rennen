@@ -21,6 +21,11 @@ navbar{
 	font-size: 1.1em !important;
 }
 
+.logo {
+	height: 5%;
+	width: 20%;
+
+}
 /*Slider*/
 .carousel-indicators li{
 	background-color: #b4b4b4;
@@ -127,7 +132,7 @@ hr.light {
 	}
 }
 @media (max-width: 576px) {
-  
+
 }
 
 
@@ -190,11 +195,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-
