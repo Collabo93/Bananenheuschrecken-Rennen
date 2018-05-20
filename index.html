@@ -1,23 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 	<head>
 		<title>Bananenheuschrecken-Rennen</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/functions.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>		
 	</head>
 	<body>
+	
 		<!--Menü -->
 		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
+				<!-- <a class="navbar-brand" href="index.html"> -->
 					<img src="img/logo.png" alt="Bananenheuschrecken-Rennen Logo">
-					<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-				</a>
+					<div>Icons made by 
+						<a href="http://www.freepik.com" title="Freepik">
+							Freepik
+						</a> 
+							from 
+						<a href="https://www.flaticon.com/" title="Flaticon">
+							www.flaticon.com
+						</a> 
+							is licensed by 
+						<a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">
+							CC 3.0 BY
+						</a>
+					</div>
+				<!-- </a>-->
 				<!-- Logo muss noch verkleinert werden ! -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 					<span class="navbar-toggler-icon">
@@ -96,11 +110,9 @@
 					</p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-					<a href="#">
-						<button type="button" class="btn btn-outline-secondary btn-lg">
-							Über uns
-						</button>
-					</a>
+					<button type="button" class="btn btn-outline-secondary btn-lg" onclick="test()">
+						Über uns
+					</button>
 				</div>
 			</div>
 		</div>
@@ -109,11 +121,11 @@
 		<div class="container-fluid padding">
 			<div class="row welcome text-center">
 				<div class="col-12">
-					<h1 class="display-4">Verschiedenste Rezepte<h1>
+					<h1 class="display-4">Verschiedenste Rezepte</h1>
 				</div>
 				<hr>
 				<div class="col-12">
-					<p class=lead">Hier steht besonders wertvoller Text</p>
+					<p class="lead">Hier steht besonders wertvoller Text</p>
 				</div>
 			</div>
 		</div>
@@ -185,12 +197,13 @@
 						<hr class="light">
 
 					</div>
-					<div class="col-12"
-						<hr class=light">
+					<div class="col-12">
+						<hr class="light">
 						<h5>&copy; bananenheuschrecken-rezepte.com</h5>
 					</div>
 				</div>
 			</div>
 		</footer>
+		
 	</body>
 </html>
