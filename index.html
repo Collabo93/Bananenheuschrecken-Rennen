@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 	<head>
 		<title>Bananenheuschrecken-Rennen</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/functions.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	</head>
 	<body>
+
 		<!--Menü -->
 		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 			<div class="container-fluid">
@@ -76,12 +78,12 @@
 				</div>
 			</div>
 
-			<a class="left carousel-control" href="#slides" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left"></span>
+			<a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
 			</a>
-			<a class="right carousel-control" href="#slides" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right"></span>
+			<a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
@@ -95,11 +97,9 @@
 					</p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-					<a href="#">
-						<button type="button" class="btn btn-outline-secondary btn-lg">
-							Über uns
-						</button>
-					</a>
+					<button type="button" class="btn btn-outline-secondary btn-lg" onclick="test()">
+						Über uns
+					</button>
 				</div>
 			</div>
 		</div>
@@ -108,11 +108,11 @@
 		<div class="container-fluid padding">
 			<div class="row welcome text-center">
 				<div class="col-12">
-					<h1 class="display-4">Verschiedenste Rezepte<h1>
+					<h1 class="display-4">Verschiedenste Rezepte</h1>
 				</div>
 				<hr>
 				<div class="col-12">
-					<p class=lead">Hier steht besonders wertvoller Text</p>
+					<p class="lead">Hier steht besonders wertvoller Text</p>
 				</div>
 			</div>
 		</div>
@@ -153,7 +153,73 @@
 
 
 		<!--Block -->
-		<p> Hier kommen nachher die Rezepte rein</p>
+		<p> brauchen wir hier eine Überschrift?</p>
+		<div class="container-fluid padding">
+			<div class="row padding">
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="img/Block1.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Haferflocken</h4>
+							<p class="card-text">Hier: Dauer, schwierigkeit, etc</p>
+							<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="img/Block1.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Haferflocken</h4>
+							<p class="card-text">Hier: Dauer, schwierigkeit, etc</p>
+							<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="img/Block1.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Haferflocken</h4>
+							<p class="card-text">Hier: Dauer, schwierigkeit, etc</p>
+							<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row padding">
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="img/Block1.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Haferflocken</h4>
+							<p class="card-text">Hier: Dauer, schwierigkeit, etc</p>
+							<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="img/Block1.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Haferflocken</h4>
+							<p class="card-text">Hier: Dauer, schwierigkeit, etc</p>
+							<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="img/Block1.jpg">
+						<div class="card-body">
+							<h4 class="card-title">Haferflocken</h4>
+							<p class="card-text">Hier: Dauer, schwierigkeit, etc</p>
+							<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 		<!--Footer -->
@@ -184,12 +250,13 @@
 						<hr class="light">
 
 					</div>
-					<div class="col-12"
-						<hr class=light">
+					<div class="col-12">
+						<hr class="light">
 						<h5>&copy; bananenheuschrecken-rezepte.com</h5>
 					</div>
 				</div>
 			</div>
 		</footer>
+
 	</body>
 </html>
