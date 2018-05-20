@@ -75,6 +75,22 @@ navbar{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#FFA500' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
+.carousel:hover .carousel-control-prev{
+  background-color: rgba(128,128,128,0.2);
+}
+
+.carousel:hover .carousel-control-next{
+  background-color: rgba(128,128,128,0.2);
+}
+
+.carousel:focus .carousel-control-prev{
+  background-color: rgba(128,128,128,0.8);
+}
+
+.carousel:focus .carousel-control-next{
+  background-color: rgba(128,128,128,0.8);
+}
+
 
 /*Jumper*/
 .jumbotron {
