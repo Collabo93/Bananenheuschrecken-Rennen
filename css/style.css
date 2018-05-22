@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+/**---- Main css part --*/
 html, body{
-	height: 80%;
+	height: 100%;
 	width: 80%;
 	display: block;
 	margin-left: auto;
@@ -226,6 +227,20 @@ hr.light {
 	height: 15%;
 	width: 26%;
 }
+
+
+/**---- Subsides css part --
+/* Landing Page */
+.landing img{
+	width: 100%;
+	height: 100%;
+}
+.landing-text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
