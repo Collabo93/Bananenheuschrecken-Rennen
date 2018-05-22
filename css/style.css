@@ -161,6 +161,10 @@ navbar{
 	color: #517fa4;
 }
 
+.fa-pinterest{
+	color: #0099CC;
+}
+
 
 /*Footer
 footer{
@@ -175,6 +179,10 @@ hr.light {
 	margin-bottom: 1rem;
 }
 */
+.logo-footer{
+	height: 15%;
+	width: 35%;
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
@@ -234,7 +242,7 @@ hr.light {
 	}
 	
 	.social a{
-		font-size: 2.5em;
+		font-size: 2em;
 		padding: 1em;
 	}
 }
