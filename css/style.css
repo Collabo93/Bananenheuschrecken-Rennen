@@ -162,8 +162,8 @@ figure {
   position: fixed;
   display: block;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 15%;
+  width:80%;
   height: 100%;
   background-size: cover;
   background-position: center center;
@@ -279,7 +279,10 @@ hr.light {
 	}
 }
 @media (max-width: 576px) {
-
+	html, body{
+		height: 100%;
+		width: 100%;
+	}
 }
 
 /*
