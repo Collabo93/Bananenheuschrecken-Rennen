@@ -2,7 +2,7 @@
 
 /**---- Main css part --*/
 html, body{
-	height: 100%;
+	height: 80%;
 	width: 80%;
 	display: block;
 	margin-left: auto;
@@ -235,6 +235,7 @@ hr.light {
 	height: 100%;
 	background-attachment: fixed;
 }
+
 
 
 /*---Media Queries --*/
