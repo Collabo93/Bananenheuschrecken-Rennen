@@ -236,19 +236,6 @@ hr.light {
 	background-attachment: fixed;
 }
 
-.landing-text{
-	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
-}
-
-.landing hr{
-	border-top: 2px solid #b4b4b4;
-	width: 90%;
-	margin-top: 0.3rem;
-	margin-bottom: 1rem;
-}
-
 
 /*---Media Queries --*/
 @media (max-width: 1200px) {
