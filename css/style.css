@@ -2,7 +2,7 @@
 
 /**---- Main css part --*/
 html, body{
-	height: 80%;
+	height: 100%;
 	width: 80%;
 	display: block;
 	margin-left: auto;
@@ -220,7 +220,6 @@ hr.light {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
-*/
 .logo-footer{
 	height: 15%;
 	width: 26%;
