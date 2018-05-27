@@ -262,8 +262,7 @@ hr.light {
 
 /*---Media Queries --*/
 @media (max-width: 1200px) {
-	html, body{
-		height: 100%;
+	.reduce{
 		width: 100%;
 	}
 
@@ -276,6 +275,10 @@ hr.light {
 	}
 
 	.jumbotron p{
+		font-size: 1.5em;
+	}
+	
+	.btn-outline-secondary{
 		font-size: 1.5em;
 	}
 
@@ -297,8 +300,7 @@ hr.light {
 	}
 }
 @media (max-width: 992px) {
-	html, body{
-		height: 100%;
+	.reduce{
 		width: 100%;
 	}
 
@@ -315,6 +317,10 @@ hr.light {
 	}
 
 	.jumbotron p{
+		font-size: 1.25em;
+	}
+	
+	.btn-outline-secondary{
 		font-size: 1.25em;
 	}
 
@@ -336,8 +342,7 @@ hr.light {
 	}
 }
 @media (max-width: 768px) {
-	html, body{
-		height: 100%;
+	.reduce{
 		width: 100%;
 	}
 
@@ -354,6 +359,10 @@ hr.light {
 	}
 
 	.jumbotron p{
+		font-size: 1em;
+	}
+	
+	.btn-outline-secondary{
 		font-size: 1em;
 	}
 
@@ -375,8 +384,7 @@ hr.light {
 	}
 }
 @media (max-width: 576px) {
-	html, body{
-		height: 100%;
+	.reduce{
 		width: 100%;
 	}
 
@@ -394,6 +402,10 @@ hr.light {
 
 	.jumbotron p{
 		font-size: 1em;
+	}
+	
+	.btn-outline-secondary{
+		font-size: 0.8em;
 	}
 
 	.welcome h1{
