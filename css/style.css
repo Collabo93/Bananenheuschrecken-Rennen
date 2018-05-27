@@ -234,6 +234,24 @@ hr.light {
 	background-attachment: fixed;
 }
 
+.path{
+	padding-left: 2rem;
+}
+
+.path p{
+	display: inline;
+}
+
+.path a{
+	color: grey;
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+}
+
+.active{
+	color: black !important;
+}
+
 
 
 /*---Media Queries --*/
