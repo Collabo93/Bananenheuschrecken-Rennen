@@ -3,22 +3,16 @@
 /**---- Main css part --*/
 html, body{
 	height: 100%;
-	width: 100%;
+	width: 80%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Poppins', sans-serif;
 	color: #222;
-	background-color: gainsboro;
 }
 
 .padding{
 	padding: 2em;
-}
-
-.reduce{
-	width: 60%;
-	background-color: white;
 }
 
 /*Menü */
@@ -45,7 +39,7 @@ navbar{
 }
 
 .carousel-indicators li.active {
-    background-color: black;
+    background-color: #FFA500;
 }
 
 .carousel-inner img{
@@ -75,12 +69,29 @@ navbar{
 	padding-bottom: 1rem;
 }
 
+.carousel-caption hr{
+	border-top: 2px solid #FFA500;
+	width:20%;
+	margin-top: 0.3rem;
+	margin-bottom: 1rem;
+}
+
+.btn-primary{
+	background-color: rgba(128,128,128,0.6);
+	border: 1px solid #FFA500;
+}
+
+.btn-primary:hover{
+	background-color: rgba(128,128,128,0.8);
+	border: 1px solid #FFA500;
+}
+
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#FFA500' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#FFA500' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 .carousel:hover .carousel-control-prev{
@@ -96,7 +107,7 @@ navbar{
 }
 
 .carousel:focus .carousel-control-next{
-  background-color: rgba(128,128,128,0.9);
+  background-color: rgba(128,128,128,0.8);
 }
 
 
@@ -223,29 +234,12 @@ hr.light {
 	background-attachment: fixed;
 }
 
-.path{
-	padding-left: 2rem;
-}
-
-.path p{
-	display: inline;
-}
-
-.path a{
-	color: grey;
-	padding-left: 0.8rem;
-	padding-right: 0.8rem;
-}
-
-.active{
-	color: black !important;
-}
-
 
 
 /*---Media Queries --*/
 @media (max-width: 1200px) {
-	.reduce{
+	html, body{
+		height: 100%;
 		width: 100%;
 	}
 
@@ -258,10 +252,6 @@ hr.light {
 	}
 
 	.jumbotron p{
-		font-size: 1.5em;
-	}
-	
-	.btn-outline-secondary{
 		font-size: 1.5em;
 	}
 
@@ -283,7 +273,8 @@ hr.light {
 	}
 }
 @media (max-width: 992px) {
-	.reduce{
+	html, body{
+		height: 100%;
 		width: 100%;
 	}
 
@@ -300,10 +291,6 @@ hr.light {
 	}
 
 	.jumbotron p{
-		font-size: 1.25em;
-	}
-	
-	.btn-outline-secondary{
 		font-size: 1.25em;
 	}
 
@@ -325,7 +312,8 @@ hr.light {
 	}
 }
 @media (max-width: 768px) {
-	.reduce{
+	html, body{
+		height: 100%;
 		width: 100%;
 	}
 
@@ -342,10 +330,6 @@ hr.light {
 	}
 
 	.jumbotron p{
-		font-size: 1em;
-	}
-	
-	.btn-outline-secondary{
 		font-size: 1em;
 	}
 
@@ -367,7 +351,8 @@ hr.light {
 	}
 }
 @media (max-width: 576px) {
-	.reduce{
+	html, body{
+		height: 100%;
 		width: 100%;
 	}
 
@@ -385,10 +370,6 @@ hr.light {
 
 	.jumbotron p{
 		font-size: 1em;
-	}
-	
-	.btn-outline-secondary{
-		font-size: 0.8em;
 	}
 
 	.welcome h1{
