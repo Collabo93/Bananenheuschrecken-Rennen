@@ -13,155 +13,162 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	</head>
 	<body>
-		<!--Menü -->
-		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
-					<img class="logo" src="../../img/bananenheuschreckenrennen-logo.svg" alt="bananenheuschreckenrennen-logo heuschrecke">
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-					<span class="navbar-toggler-icon">
-					</span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="../../index.html">Startseite</a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link" href="../kategorien.html">Bananen Rezepte</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Über die Heuschrecken</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Kontakt</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+		<div class="reduce container-fluid">
 		
-	
-		<!-- Landing Page Picture-->
-		<div class="landing">
-			<div class="row">
-				<div class="col-12">
-					<img src="../../img/slider/bananenheuschreckenrennen-himbeerpancakes.jpg" alt="Himbeerpancake Dessert">
-				</div>
-			</div>
-		</div>
-		
-		<!--Jumper -->
-		<div class="container-fluid">
-			<div class="row jumbotron">
-				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-					<p class="lead">
-					Der Heuschrecken Rezepte Blog, mit dem ihr das Rennen macht.
-					</p>
-					<!-- Cookie Hinweis möglicherweiße, wir können den Teil hier aber auch entfernen wenn nicht benötigt-->
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-					<button type="button" class="btn btn-outline-secondary btn-lg" onclick="test()">
-						Über uns
+			<!--Menü -->
+			<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="index.html">
+						<img class="logo" src="../../img/bananenheuschreckenrennen-logo.svg" alt="bananenheuschreckenrennen-logo heuschrecke">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+						<span class="navbar-toggler-icon">
+						</span>
 					</button>
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="../../index.html">Startseite</a>
+							</li>
+							<li class="nav-item dropdown active">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bananen Rezepte</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="nav-link" href="../desserts.html">Desserts</a>
+									<a class="nav-link" href="../getraenke.html">Getränke</a>
+									<a class="nav-link" href="../speisen.html">Speisen</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Über die Heuschrecken</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Kontakt</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			
+		
+			<!-- Landing Page Picture-->
+			<div class="landing">
+				<div class="row">
+					<div class="col-12">
+						<img src="../../img/slider/bananenheuschreckenrennen-himbeerpancakes.jpg" alt="Himbeerpancake Dessert">
+					</div>
 				</div>
 			</div>
-		</div>
-		
-		<!-- Welcome - Subside 
-		<div class="container-fluid padding">
-			<div class="row welcome text-center">
-				<div class="col-12">
-					<h1 class="display-4">Himbeerpancake</h1>
+			
+			<!--Jumper -->
+			<div class="container-fluid">
+				<div class="row jumbotron">
+					<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+						<p class="lead">
+						Der Heuschrecken Rezepte Blog, mit dem ihr das Rennen macht.
+						</p>
+						<!-- Cookie Hinweis möglicherweiße, wir können den Teil hier aber auch entfernen wenn nicht benötigt-->
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+						<button type="button" class="btn btn-outline-secondary btn-lg" onclick="test()">
+							Über uns
+						</button>
+					</div>
+				</div>
+			</div>
+				
+			<!--Path -->
+			<div class="container-fluid">
+				<div class="row path">
+					<div class="col-12">
+						<a href="../index.html">Startseite</a>
+						<p> > </p>
+						<a href="../desserts.html">Desserts</a>
+						<p> > </p>
+						<a class="active" href="#">Himbeerpancake</a>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!-- Information - über Dauer, Aufwand, Zutaten, etc.-->
+			<div class="container-fluid padding">
+				<div class="row text-center padding">
+					<div class="col-12">
+						<h2>Rezept</h2>
+					</div>	
 				</div>
 				<hr>
-				<div class="col-12">
-					<p class="lead">Dessert</p>
-				</div>
-			</div>
-		</div>
-		-->
-		
-		<!-- Information - über Dauer, Aufwand, Zutaten, etc.-->
-		<div class="container-fluid padding">
-			<div class="row text-center padding">
-				<div class="col-12">
-					<h2>Rezept</h2>
+				<div class="row padding">
+					<div class="col-lg-6">
+						<img src="../../img/information.png" class="img-fluid" alt="Zutaten Dauer Schwierigkeit">
+					</div>
+					<div class="col-lg-6">			
+						<h3>Überblick</h3>
+						<p>Arbeitszeit: ca. 10 Min. / Koch-/Backzeit: ca. 10 Min. / Schwierigkeitsgrad: normal / Kalorien p. P.: ca. 150 kcal 
+						</p>
+						<br>
+						<h3>Zutaten</h3>
+						<p>
+						100 ml	Milch,1.5% Fett<br>
+						70 g	Eiweiß<br>
+						50 g	Eigelb<br>
+						40 g	Pulver (Proteinpulver z. B. Vanille)<br>
+						100 g	Banane(n)<br>
+						125 g	Himbeeren<br>
+						100 g	Mehl, z. B. Hafer- oder Vollkornmehl<br>
+						10 g	Fett, z. B. Kokos- oder Erdnussfett<br>
+						</p>
+					</div>
 				</div>	
-			</div>
-			<hr>
-			<div class="row padding">
-				<div class="col-lg-6">
-					<img src="../../img/information.png" class="img-fluid" alt="Zutaten Dauer Schwierigkeit">
-				</div>
-				<div class="col-lg-6">			
-					<h3>Überblick</h3>
-					<p>Arbeitszeit: ca. 10 Min. / Koch-/Backzeit: ca. 10 Min. / Schwierigkeitsgrad: normal / Kalorien p. P.: ca. 150 kcal 
-					</p>
-					<br>
-					<h3>Zutaten</h3>
-					<p>
-					100 ml	Milch,1.5% Fett<br>
-					70 g	Eiweiß<br>
-					50 g	Eigelb<br>
-					40 g	Pulver (Proteinpulver z. B. Vanille)<br>
-					100 g	Banane(n)<br>
-					125 g	Himbeeren<br>
-					100 g	Mehl, z. B. Hafer- oder Vollkornmehl<br>
-					10 g	Fett, z. B. Kokos- oder Erdnussfett<br>
-					</p>
-				</div>
-			</div>	
-			<div class="row padding">
-				<div class="col-lg-6">			
-					<h3>Zubereitung</h3>
-					<p>
-					Statt 100 g Mehl kann man z. B. auch Hafermehl nehmen und statt den 125 g frischen Himbeeren können auch andere Obstsorten genommen werden. Vorsicht bei TK-Früchten, da diese, sofern sie noch tiefgekühlt sind, gerne etwas wässern.
-					</p><p>		
-					Das Eigelb, Proteinpulver, Milch und Mehl vermengen. Die Banane mit einer Gabel zerkleinern und in den Teig rühren. Anschließend das Eiweiß steif schlagen und mit einem Schneebesen unter den Teig heben.
-					</p><p>		
-					In einer Pfanne wirklich nur sehr wenig Öl, z. B. Kokosfett erhitzen. Die Himbeeren unter den Teig rühren. Nun die Pancakes in der Pfanne von beiden Seiten etwa 3 - 4 Minuten backen.
-					</p><p>		
-					Bei mir ergibt die hier im Rezept angegebene Menge immer etwa 6 Pancakes. 
-					</p>
-				</div>
-				<div class="col-lg-6">
-					<img src="../../img/zubereitung.png" class="img-fluid" alt="Zubereitung">
+				<div class="row padding">
+					<div class="col-lg-6">			
+						<h3>Zubereitung</h3>
+						<p>
+						Statt 100 g Mehl kann man z. B. auch Hafermehl nehmen und statt den 125 g frischen Himbeeren können auch andere Obstsorten genommen werden. Vorsicht bei TK-Früchten, da diese, sofern sie noch tiefgekühlt sind, gerne etwas wässern.
+						</p><p>		
+						Das Eigelb, Proteinpulver, Milch und Mehl vermengen. Die Banane mit einer Gabel zerkleinern und in den Teig rühren. Anschließend das Eiweiß steif schlagen und mit einem Schneebesen unter den Teig heben.
+						</p><p>		
+						In einer Pfanne wirklich nur sehr wenig Öl, z. B. Kokosfett erhitzen. Die Himbeeren unter den Teig rühren. Nun die Pancakes in der Pfanne von beiden Seiten etwa 3 - 4 Minuten backen.
+						</p><p>		
+						Bei mir ergibt die hier im Rezept angegebene Menge immer etwa 6 Pancakes. 
+						</p>
+					</div>
+					<div class="col-lg-6">
+						<img src="../../img/zubereitung.png" class="img-fluid" alt="Zubereitung">
+					</div>
 				</div>
 			</div>
-			<hr>
+		
+		
+			<!--Footer -->
+			<footer>
+				<div class="container-fluid padding">
+					<div class="row text-center">
+						<div class="col-md-6">
+							<img src="../../img/bananenheuschreckenrennen-logo.svg" class="logo-footer" alt="Bananenheuschrecken-Rennen Logo">
+							<hr class="light">
+							<p><b>Hochschule Ravensburg-Weingarten</b></p>
+							<p>Gebäude H, Raum H022</p>
+							<p>Doggenriedstr.</p>
+							<p>88250 Weingarten</p>
+							<p>Tel: +49 751 501-9344</p>
+							<p>Fax: +49 751 501-9876</p>
+							<p>E-Mail: info@hs-weingarten.de</p>
+						</div>
+						<div class="col-md-6">
+							<hr class="light">
+							<h5>Sprechzeiten</h5>
+							<hr class="light">
+							<p>Mo - Do von 10:00 - 12:00 und 13:00 - 14:15 Uhr</p>
+							<p>Freitags von 09:00 - 12:00 Uhr</p>
+						</div>
+						<div class="col-12">
+							<hr class="light">
+							<h5>&copy; bananenheuschrecken-rezepte.de</h5>
+						</div>
+					</div>
+				</div>
+			</footer>
 		</div>
-	
-	
-		<!--Footer -->
-		<footer>
-			<div class="container-fluid padding">
-				<div class="row text-center">
-					<div class="col-md-6">
-						<img src="../../img/bananenheuschreckenrennen-logo.svg" class="logo-footer" alt="Bananenheuschrecken-Rennen Logo">
-						<hr class="light">
-						<p><b>Hochschule Ravensburg-Weingarten</b></p>
-						<p>Gebäude H, Raum H022</p>
-						<p>Doggenriedstr.</p>
-						<p>88250 Weingarten</p>
-						<p>Tel: +49 751 501-9344</p>
-						<p>Fax: +49 751 501-9876</p>
-						<p>E-Mail: info@hs-weingarten.de</p>
-					</div>
-					<div class="col-md-6">
-						<hr class="light">
-						<h5>Sprechzeiten</h5>
-						<hr class="light">
-						<p>Mo - Do von 10:00 - 12:00 und 13:00 - 14:15 Uhr</p>
-						<p>Freitags von 09:00 - 12:00 Uhr</p>
-					</div>
-					<div class="col-12">
-						<hr class="light">
-						<h5>&copy; bananenheuschrecken-rezepte.de</h5>
-					</div>
-				</div>
-			</div>
-		</footer>
 	</body>
 </html>
