@@ -36,6 +36,11 @@ h1{
 	border-right:solid;
 }
 
+img{
+	border: solid;
+	border-color: black;
+}
+
 /*Intro */
 .intro{
 	height:100%;
