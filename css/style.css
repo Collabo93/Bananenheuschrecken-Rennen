@@ -15,6 +15,26 @@ h1{
 	font-size: 600%;
 }
 
+h2{
+	font-size: 400%;
+}
+
+h3{
+	font-size: 300%;
+}
+
+h4{
+	font-size: 200%;
+}
+
+h5{
+	font-size: 150%;
+}
+
+p{
+	font-size: 100%
+}
+
 .padding{
 	padding: 2em;
 }
@@ -85,22 +105,6 @@ img{
 .intro .btn:hover{
 	background-color: grey;
 }
-/*Menü */
-navbar{
-	padding: 0.8rem;
-}
-
-.navbar-nav li{
-	padding-right: 20px;
-}
-
-.nav-link{
-	font-size: 1.1em !important;
-}
-
-.logo {
-	width: 85px;
-}
 
 /*Slider*/
 .carousel-indicators li{
@@ -126,15 +130,14 @@ navbar{
 	transform: translateY(-50%);
 }
 
-.carousel-caption h1{
-	font-size: 4em;
+.carousel-caption h3{
 	text-transform: uppercase;
 	text-shadow: 1px 1px 10px #000;
+	padding-bottom: 1rem;
 }
 
-.carousel-caption h3{
-	font-size: 2em;
-	font-weight: 500;
+.carousel-caption p{
+	font-size: 200%;
 	text-shadow: 1px 1px 10px #000;
 	padding-bottom: 1rem;
 }
@@ -207,7 +210,7 @@ navbar{
 figure {
   position: relative;
   width: 100%;
-  height: 60%;
+  height: 80%;
   margin: 0!important;
 }
 
@@ -306,83 +309,61 @@ hr.light {
 
 /*---Media Queries --*/
 @media (max-width: 1200px) {
-	.reduce{
-		width: 100%;
+	.text_left{
+		padding-right:0;
+		padding-left: 0;
+		padding-top: 0;
+		border: none
 	}
 
-	.carousel-caption h1{
-		font-size: 3em;
-	}
-
-	.carousel-caption h3{
-		font-size: 1.5em;
-	}
-
-	.jumbotron p{
-		font-size: 1.5em;
-	}
-	
-	.btn-outline-secondary{
-		font-size: 1.5em;
-	}
-
-	.welcome h1{
-		font-size: 2em;
-	}
-
-	.welcome p{
-		font-size: 1.5em;
-	}
-
-	.hide{
-		display: none;
-	}
-
-	.social a{
-		font-size: 3em;
-		padding: 1.25em;
+	.text_right{
+		padding-right:0;
+		padding-left: 0;
+		padding-top: 0;
+		border: none
 	}
 }
 @media (max-width: 992px) {
-	.reduce{
-		width: 100%;
-	}
-
-	.carousel-indicators{
-		display: none;
-	}
-
-	.carousel-caption h1{
-		font-size: 2.5em;
-	}
-
-	.carousel-caption h3{
-		font-size: 1.25em;
-	}
-
-	.jumbotron p{
-		font-size: 1.25em;
-	}
-	
-	.btn-outline-secondary{
-		font-size: 1.25em;
-	}
-
-	.welcome h1{
-		font-size: 2em;
-	}
-
-	.welcome p{
-		font-size: 1.25em;
-	}
-
 	.hide{
 		display: none;
 	}
+	
+	h1{
+	font-size: 400%;
+	}
 
-	.social a{
-		font-size: 2.5em;
-		padding: 1.25em;
+	h2{
+		font-size: 250%;
+	}
+
+	h3{
+		font-size: 200%;
+	}
+
+	h4{
+		font-size: 200%;
+	}
+
+	h5{
+		font-size: 150%;
+	}
+
+	p{
+		font-size: 100%
+	}
+	
+	.text_left{
+		padding-right:0;
+		padding-left: 0;
+		padding-top: 0;
+		border: none
+	}
+
+	.text_right{
+		padding-right:0;
+		padding-left: 0;
+		padding-top: 0;
+		border: none
 	}
 }
 @media (max-width: 768px) {
@@ -390,41 +371,46 @@ hr.light {
 		width: 100%;
 	}
 
-	.carousel-indicators{
-		display: none;
-	}
-
-	.carousel-caption h1{
-		font-size: 2em;
-	}
-
-	.carousel-caption h3{
-		font-size: 1em;
-	}
-
-	.jumbotron p{
-		font-size: 1em;
-	}
-	
-	.btn-outline-secondary{
-		font-size: 1em;
-	}
-
-	.welcome h1{
-		font-size: 2em;
-	}
-
-	.welcome p{
-		font-size: 1em;
-	}
-
 	.hide{
 		display: none;
 	}
+	
+	h1{
+	font-size: 300%;
+	}
 
-	.social a{
-		font-size: 2em;
-		padding: 1em;
+	h2{
+		font-size: 200%;
+	}
+
+	h3{
+		font-size: 150%;
+	}
+
+	h4{
+		font-size: 150%;
+	}
+
+	h5{
+		font-size: 120%;
+	}
+
+	p{
+		font-size: 100%
+	}
+	
+	.text_left{
+		padding-right:0;
+		padding-left: 0;
+		padding-top: 0;
+		border: none
+	}
+
+	.text_right{
+		padding-right:0;
+		padding-left: 0;
+		padding-top: 0;
+		border: none
 	}
 }
 @media (max-width: 576px) {
@@ -432,41 +418,46 @@ hr.light {
 		width: 100%;
 	}
 
-	.carousel-indicators{
-		display: none;
-	}
-
-	.carousel-caption h1{
-		font-size: 1.5em;
-	}
-
-	.carousel-caption h3{
-		font-size: 1em;
-	}
-
-	.jumbotron p{
-		font-size: 1em;
-	}
-	
-	.btn-outline-secondary{
-		font-size: 0.8em;
-	}
-
-	.welcome h1{
-		font-size: 1.5em;
-	}
-
-	.welcome p{
-		font-size: 1em;
-	}
-
 	.hide{
 		display: none;
 	}
+	
+	h1{
+	font-size: 200%;
+	}
 
-	.social a{
-		font-size: 2em;
-		padding: 0.75em;
+	h2{
+		font-size: 150%;
+	}
+
+	h3{
+		font-size: 120%;
+	}
+
+	h4{
+		font-size: 120%;
+	}
+
+	h5{
+		font-size: 120%;
+	}
+
+	p{
+		font-size: 100%
+	}
+	
+	.text_left{
+		padding-right:0;
+		padding-left: 0;
+		padding-top: 0;
+		border: none
+	}
+
+	.text_right{
+		padding-right:0;
+		padding-left: 0;
+		padding-top: 0;
+		border: none
 	}
 }
 
