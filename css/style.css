@@ -5,11 +5,15 @@ html, body{
 	height: 100%;
 	width: 100%;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 0;
+	margin-right: 0;
 	font-family: 'Poppins', sans-serif;
 	color: #222;
 	background-color: gainsboro;
+}
+
+h1{
+	font-size: 600%;
 }
 
 .padding{
@@ -17,10 +21,58 @@ html, body{
 }
 
 .reduce{
-	width: 60%;
+	width: 65%;
 	background-color: white;
 }
 
+.text_left{
+	padding-right:10%;
+	padding-top: 1%;
+	border-left:solid;
+}
+
+.text_right{
+	padding-left:10%;
+	padding-top: 1%;
+	border-right:solid;
+}
+
+/*Intro */
+.intro{
+	height:100%;
+	width: 100%;
+	margin: auto;
+	background-image: url('../img/landing_picture.jpg');
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
+.inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+
+.content{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.intro .btn{
+	font-size: 300%;
+	margin: 5%;
+	padding: 1%;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: solid;
+}
+
+.intro .btn:hover{
+	background-color: grey;
+}
 /*Menü */
 navbar{
 	padding: 0.8rem;
@@ -196,12 +248,9 @@ figure {
 	color: #0099CC;
 }
 
-
-
 footer{
-	background-color: #3f3f3f;
-	color: #d5d5d5;
 	padding-top: 2rem;
+	padding-top: 2%;
 }
 hr.light {
 	border-top: 1px solid #d5d5d5;
