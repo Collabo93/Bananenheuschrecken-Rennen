@@ -13,10 +13,10 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
 
-		<link href="css/animate.css" rel="stylesheet"/>
-		<link href="css/waypoints.css" rel="stylesheet"/>
-		<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
-		<script src="js/waypoints.js" type="text/javascript"></script>
+		<link href="css/animate.css" rel="stylesheet">
+		<link href="css/waypoints.css" rel="stylesheet">
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/waypoints.js"></script>
 	</head>
 	<body>
 	
@@ -27,6 +27,38 @@
 		</div>
 		
 		<div id="load_everything">
+		
+			<!-- Das menü ist noch nicht fertig. Ich möchte das Rechts mitog anbringen + Punkte Horizontal ausrichten. Verlinkung geht aber schon mal" -->
+			<!--Menü -->
+			<nav class="navbar navbar-expand-md navbar-light navbar-transparent fixed-top navbar-transparent">
+				<div class="container-fluid">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+						<span class="navbar-toggler-icon">
+						</span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto navbar-brand">
+							<li class="nav-item active">
+								<a class="nav-link" href="#welcome">Startseite</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bananen Rezepte</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="nav-link" href="#desserts_rezept">Desserts</a>
+									<a class="nav-link" href="#getraenke_rezept">Getränke</a>
+									<a class="nav-link" href="#speisen_rezept">Speisen</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#Ueber_uns">Über die Heuschrecken</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#Kontakt">Kontakt</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 		
 			<!-- Intro -->
 			<section class="intro">
@@ -251,7 +283,7 @@
 							<h3>Über uns</h3>
 						</div>
 					</div>
-					<div class="row padding" id="Ueber_uns">
+					<div class="row padding">
 						<div class="col-12 text-center">
 							<p> Besonders pädagogisch wertvoller Text</p>
 						</div>
@@ -540,7 +572,7 @@
 				
 				<!-- Desserts Rezepte -->
 				<div class="container-fluid">
-					<div class="row padding">
+					<div class="row padding" id="desserts_rezept">
 						<div class="col-12 text-center">
 							<h3>Desserts - Rezepte</h3>
 						</div>
@@ -566,7 +598,7 @@
 						</div>
 					</div>
 					<hr>
-					<div class="row" id="desserts_rezept_himbeerpancake">
+					<div class="row" id="#">
 						<div class="col-xs-12 col-sm-6">
 							<img class="img-fluid" src="img/slider/bananenheuschreckenrennen-himbeerpancakes.jpg" alt="Himbeerpancake Dessert">
 						</div>
@@ -579,7 +611,7 @@
 						</div>
 					</div>
 					<hr>
-					<div class="row" id="desserts_rezept_himbeerpancake">
+					<div class="row" id="#">
 						<div class="col-xs-12 col-sm-6">
 							<img class="img-fluid" src="img/slider/bananenheuschreckenrennen-himbeerpancakes.jpg" alt="Himbeerpancake Dessert">
 						</div>
@@ -596,12 +628,12 @@
 				
 				<!-- Getränke Rezepte -->
 				<div class="container-fluid">
-					<div class="row padding">
+					<div class="row padding" id="getraenke_rezept">
 						<div class="col-12 text-center">
 							<h3>Getränke - Rezepte</h3>
 						</div>
 					</div>
-					<div class="row" id="desserts_rezept_himbeerpancake">
+					<div class="row" id="#">
 						<div class="col-xs-12 col-sm-6 text_left">
 							<h4>Dummy</h4>
 							<p>
@@ -613,7 +645,7 @@
 						</div>
 					</div>
 					<hr>
-					<div class="row" id="desserts_rezept_himbeerpancake">
+					<div class="row" id="#">
 						<div class="col-xs-12 col-sm-6 text_left">
 							<h4>Dummy</h4>
 							<p>
@@ -625,7 +657,7 @@
 						</div>
 					</div>
 					<hr>
-					<div class="row" id="desserts_rezept_himbeerpancake">
+					<div class="row" id="#">
 						<div class="col-xs-12 col-sm-6 text_left">
 							<h4>Dummy</h4>
 							<p>
@@ -641,12 +673,12 @@
 				
 				<!-- Speisen Rezepte -->
 				<div class="container-fluid">
-					<div class="row padding">
+					<div class="row padding" id="speisen_rezept">
 						<div class="col-12 text-center">
 							<h3>Speisen - Rezepte</h3>
 						</div>
 					</div>
-					<div class="row" id="desserts_rezept_himbeerpancake">
+					<div class="row" id="#">
 						<div class="col-xs-12 col-sm-6">
 							<img class="img-fluid" src="img/slider/bananenheuschreckenrennen-himbeerpancakes.jpg" alt="Himbeerpancake Dessert">
 						</div>
@@ -658,7 +690,7 @@
 						</div>
 					</div>
 					<hr>
-					<div class="row" id="desserts_rezept_himbeerpancake">
+					<div class="row" id="#">
 						<div class="col-xs-12 col-sm-6">
 							<img class="img-fluid" src="img/slider/bananenheuschreckenrennen-himbeerpancakes.jpg" alt="Himbeerpancake Dessert">
 						</div>
@@ -671,7 +703,7 @@
 						</div>
 					</div>
 					<hr>
-					<div class="row" id="desserts_rezept_himbeerpancake">
+					<div class="row" id="#">
 						<div class="col-xs-12 col-sm-6">
 							<img class="img-fluid" src="img/slider/bananenheuschreckenrennen-himbeerpancakes.jpg" alt="Himbeerpancake Dessert">
 						</div>
@@ -689,9 +721,9 @@
 				<!--Footer -->
 				<footer>
 					<div class="container-fluid padding">
-						<div class="row text-center">
+						<div class="row text-center" id="Kontakt">
 							<div class="col-md-6">
-								<img src="img/bananenheuschreckenrennen-logo.svg" class="logo-footer" alt="Bananenheuschrecken-Rennen Logo">
+								<img src="img/bananenheuschreckenrennen-logo.svg" class="logo" alt="Bananenheuschrecken-Rennen Logo">
 								<hr class="light">
 								<p><b>Hochschule Ravensburg-Weingarten</b></p>
 								<p>Gebäude H, Raum H022</p>
