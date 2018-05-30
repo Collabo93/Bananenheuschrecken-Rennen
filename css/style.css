@@ -322,6 +322,10 @@ hr.light {
 		padding-top: 0;
 		border: none
 	}
+	
+	.carousel-caption p{
+		font-size: 100%;
+	}
 }
 @media (max-width: 992px) {
 	.hide{
@@ -350,6 +354,10 @@ hr.light {
 
 	p{
 		font-size: 100%
+	}
+	
+	.carousel-caption p{
+		font-size: 100%;
 	}
 	
 	.text_left{
@@ -399,6 +407,10 @@ hr.light {
 		font-size: 100%
 	}
 	
+	.carousel-caption p{
+		font-size: 100%;
+	}
+	
 	.text_left{
 		padding-right:0;
 		padding-left: 0;
@@ -444,6 +456,10 @@ hr.light {
 
 	p{
 		font-size: 100%
+	}
+	
+	.carousel-caption p{
+		font-size: 100%;
 	}
 	
 	.text_left{
