@@ -42,6 +42,7 @@ p{
 .reduce{
 	width: 65%;
 	background-color: white;
+	border-top: solid;
 }
 
 .text_left{
