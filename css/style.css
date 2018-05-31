@@ -110,10 +110,14 @@ img{
 }
 
 /* Menü */
-.navbar-transparent{
-
+.navbar{
+	top: 40%;
+	left: 80%;
 }
 
+.navbar-nav a:focus { 
+	color: orange !important; 
+}
 
 /*Intro */
 .intro{
@@ -289,6 +293,11 @@ footer{
 		background-image: url('../img/Landing_picture/landing_picture_MidRes.jpg');
 	}
 	
+	.navbar{
+		top: 0;
+		left: 0;
+	}
+	
 	.text_left{
 		padding-right:0;
 		padding-left: 0;
@@ -340,8 +349,17 @@ footer{
 		background-image: url('../img/Landing_picture/landing_picture_MidRes.jpg');
 	}
 	
+	.navbar{
+		top: 0;
+		left: 0;
+	}
+	
 	.carousel-caption p{
 		font-size: 100%;
+	}
+	
+	.carousel-indicators{
+		display: none;
 	}
 	
 	.text_left{
@@ -395,8 +413,17 @@ footer{
 		background-image: url('../img/Landing_picture/landing_picture_LowRes.jpg');
 	}
 	
+	.navbar{
+		top: 0;
+		left: 0;
+	}
+	
 	.carousel-caption p{
 		font-size: 100%;
+	}
+	
+	.carousel-indicators{
+		display: none;
 	}
 	
 	.text_left{
@@ -450,8 +477,17 @@ footer{
 		background-image: url('../img/Landing_picture/landing_picture_LowRes.jpg');
 	}
 	
+	.navbar{
+		top: 0;
+		left: 0;
+	}
+	
 	.carousel-caption p{
 		font-size: 100%;
+	}
+	
+	.carousel-indicators{
+		display: none;
 	}
 	
 	.text_left{
