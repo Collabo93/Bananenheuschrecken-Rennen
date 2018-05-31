@@ -47,14 +47,14 @@ p{
 
 .text_left{
 	padding-right:10%;
-	padding-left: 2%;
+	padding-left: 5%;
 	padding-top: 1%;
 	border-left:solid;
 }
 
 .text_right{
 	padding-left:10%;
-	padding-right: 2%;
+	padding-right: 5%;
 	padding-top: 1%;
 	border-right:solid;
 }
