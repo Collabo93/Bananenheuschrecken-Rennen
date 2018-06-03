@@ -1,635 +1,632 @@
 <!DOCTYPE html>
 <html lang="de">
-	<head>
-		<title>Bananenheuschreckenrennen</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<head>
+	<title>Bananenheuschreckenrennen</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
 
-		<link href="css/animate.css" rel="stylesheet">
-		<link href="css/waypoints.css" rel="stylesheet">
-		<script src="js/jquery.waypoints.min.js"></script>
-		<script src="js/waypoints.js"></script>
-	</head>
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/waypoints.css" rel="stylesheet">
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/waypoints.js"></script>
+</head>
 
-	<body>
+<body>
 
-		<!-- Loading Screen -->
-		<div id="loading">
-			<div class="animation_loading">
-			</div>
+	<!-- Loading Screen -->
+	<div id="loading">
+		<div class="animation_loading">
 		</div>
+	</div>
 
-		<div id="load_everything">
+	<div id="load_everything">
 
-			<!-- Das menü ist noch nicht fertig. Ich möchte das Rechts mitog anbringen + Punkte Horizontal ausrichten. Verlinkung geht aber schon mal" -->
-			<!--Menü -->
-			<nav class="navbar navbar-expand-md navbar-light navbar-transparent fixed-top">
-				<div class="container-fluid">
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-							<span class="navbar-toggler-icon">
-							</span>
-						</button>
-					<div class="collapse navbar-collapse" id="navbarResponsive">
-						<ul class="navbar-nav ml-auto flex-column">
-							<li class="nav-item active nav_one">
-								<a class="nav-link nav_one" href="#welcome">Startseite</a>
+		<!-- Das menü ist noch nicht fertig. Ich möchte das Rechts mitog anbringen + Punkte Horizontal ausrichten. Verlinkung geht aber schon mal" -->
+		<!--Menü -->
+		<nav class="navbar navbar-expand-md navbar-light navbar-transparent fixed-top">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+						<span class="navbar-toggler-icon">
+						</span>
+					</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto flex-column">
+						<li class="nav-item active nav_one">
+							<a class="nav-link nav_one" href="#welcome">Startseite</a>
+						</li>
+						<li class="nav-item active nav_two">
+							<a class="nav-link" href="#desserts_Ueberblick">Desserts</a>
+						</li>
+						<li class="nav-item active nav_three">
+							<a class="nav-link" href="#getraenke_Ueberblick">Getränke</a>
+						</li>
+						<li class="nav-item active nav_four">
+							<a class="nav-link" href="#speisen_Ueberblick">Speisen</a>
+						</li>
+						<li class="nav-item active nav_five">
+							<a class="nav-link" href="#Ueber_uns">Über die Heuschrecken</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Intro -->
+		<section class="intro">
+			<div class="inner">
+				<div class="content">
+					<section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0s">
+						<h1>Bananenheuschreckenrennen</h1>
+					</section>
+					<section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0.1s">
+						<a class="btn btn-outline-secondary btn-lg" href="#welcome">Los geht's!</a>
+					</section>
+				</div>
+			</div>
+		</section>
+
+		<!-- Fixed image -->
+		<figure class="hide">
+			<div class="fixed-wrap">
+				<div id="background">
+				</div>
+			</div>
+		</figure>
+
+
+		<!-- Main section -->
+		<div class="container-fluid reduce">
+			<!--Welcome -->
+			<div class="container-fluid padding" id="welcome">
+				<div class="row welcome text-center">
+					<div class="col-12">
+						<h2>Bananenheuschreckenrennen</h2>
+					</div>
+					<hr>
+					<div class="col-12">
+						<p>Fitness Kochrezepte vom Heuschreckenblog, die euch fit ins Rennen bringen. </p>
+					</div>
+				</div>
+			</div>
+
+			<!--Slider -->
+			<div id="slides" class="carousel slide" data-ride="carousel">
+				<ul class="carousel-indicators">
+					<li data-target="#slides" data-slide-to="0" class="active"></li>
+					<li data-target="#slides" data-slide-to="1"></li>
+					<li data-target="#slides" data-slide-to="2"></li>
+					<li data-target="#slides" data-slide-to="3"></li>
+				</ul>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<a href="#desserts_rezept_himbeerpancake">
+							<img src="img/slider/bananenheuschreckenrennen-himbeerpancakes.jpg" alt="Desserts">
+							<div class="carousel-caption">
+								<h3>Himberpancake</h3>
+								<p>Dessert</p>
+							</div>
+						</a>
+					</div>
+					<div class="carousel-item">
+						<a href="#">
+							<img src="img/slider/bananenheuschreckenrennen-pancakes.jpg" alt="Desserts">
+							<div class="carousel-caption">
+								<h3>Bananen-Pancakes</h3>
+								<p>Desserts</p>
+							</div>
+						</a>
+					</div>
+					<div class="carousel-item">
+						<a href="#">
+							<img src="img/slider/bananenheuschreckenrennen-mueslischale.jpg" alt="Speisen">
+							<div class="carousel-caption">
+								<h3>Bananen Müsli</h3>
+								<p>Speisen</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="carousel-item">
+						<a href="#">
+							<img src="img/slider/bananenheuschreckenrennen-galaxybowl.jpg" alt="bananenheuschreckenrennen galaxybowl ">
+							<div class="carousel-caption">
+								<h3>Starpotenzial im Rennen</h3>
+								<p>Galaxybowl</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+
+			<!--Jumper -->
+			<div class="container-fluid">
+				<div class="row jumbotron">
+					<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+						<p>
+							Der Heuschrecken Rezepte Blog, mit dem ihr das Rennen macht.
+						</p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+						<a class="btn btn-outline-secondary btn-lg" href="#Ueber_uns">Über uns</a>
+					</div>
+				</div>
+			</div>
+
+			<!--Kategorien -->
+			<div class="container-fluid padding">
+				<div class="row text-center padding">
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<a class="cat-link" href="#desserts">
+							<div class="kategorie-item">
+								<img src="img/Desserts.jpg" alt="Desserts">
+							</div>
+						</a>
+						<h3>Bananen Dessserts</h3>
+						<p>Für Schleckermeuler, die nicht genug von Bananen kriegen.</p>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<a class="cat-link" href="#getraenke">
+							<div class="kategorie-item">
+								<img src="img/Getraenke.jpg" alt="Getränke">
+							</div>
+						</a>
+						<h3>Drinks fürs Rennen</h3>
+						<p>Für Läufer, die unaufhaltbar bleiben wollen.</p>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<a class="cat-link" href="#speisen">
+							<div class="kategorie-item">
+								<img src="img/Speisen.jpg" alt="Speisen">
+							</div>
+						</a>
+						<h3>Heuschrecken Gerichte</h3>
+						<p>Für Sportler, die auf ihre Ernährung achten.</p>
+					</div>
+				</div>
+				<hr>
+			</div>
+
+			<!-- Information -->
+			<div class="container-fluid padding">
+				<div class="row padding">
+					<div class="col-xs-12 col-sm-6 text_left">
+						<!-- Das hier ist nur ein Dummy Text, gerne offen für Ideen :) -->
+						<h3>Das Ziel im Fokus</h3>
+						<p>Eine Banane vor dem Training – ist das sinnvoll? Die Nudelparty am Vorabend vor einem Lauf – steigert das die Ausdauer? Und was ist von Eiweiß-Shakes, Sport-Riegeln und mehr zu halten? Wer ambitioniert Sport treibt, stellt sich meist Fragen wie
+							diese. Im Bereich Fitness und Sport ist viel über eine vermeintlich leistungssteigernde Ernährung zu hören. Tatsache: Mit einer ausgewogenen Ernährung können Sie sportlich viel erreichen. Doch Eiweiß-Diäten, spezielle Sportprodukte und mehr sind
+							für den (Freizeit-) Sportler in der Regel weniger empfehlenswert. Wir zeigen, worauf es bei einer sportgerechten Ernährung ankommt.
+						</p>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<img src="img/jogging.jpg" class="img-fluid" alt="Jogging Fitness">
+					</div>
+				</div>
+				<hr>
+			</div>
+
+			<!--Heuschrecken Beitrag   -->
+			<div class="container-fluid padding">
+				<div class="row padding">
+					<div class="col-xs-12 col-sm-6">
+						<img src="img/slider/bananenheuschreckenrennen-pulverfladen.jpg" class="img-fluid" alt="Heuschrecken Pulver">
+					</div>
+					<div class="col-xs-12 col-sm-6 text_right">
+						<h3>Heuschrecken</h3>
+						<p> Wir konnten es zuerst auch nicht glauben, aber es gibt ein Heuschrecken Pulver! Mit dem Heuschrecken Pulver lassen sich verschiedene Leckereien zaubern, ganz wie mit herkömmlichen Protein Pulver. <br> Zum Beispiel:
+						</p>
+						<ul>
+							<li>Heuschrecken Energie Riegel</li>
+							<li>Heuschrecken Burger Patties</li>
+							<li>Heuschrecken Reis mit Bohnen</li>
+							<li>Heuschrecken Pfannkuchen</li>
+						</ul>
+						<p>
+							Es besteht aus 100% puren Heuschrecken. Wir haben das <a href="https://www.amazon.com/Cricket-powder-made-100-22/dp/B00OMCTODQ">Heuschrecken Pulver</a> auf Amazon gekauft <br> Unser Geheimtipp: <br> Falls ihr noch mehr Infos zu Spezialitäten aus
+							Heuschrecken möchtet, seid ihr bei <a href="https://www.cricketflours.com/">Cricket Flours</a> Gold richtig.
+						</p>
+					</div>
+				</div>
+				<hr>
+			</div>
+
+			<!--Rennen Beitrag   -->
+			<div class="container-fluid padding">
+				<div class="row padding">
+					<div class="col-xs-12 col-sm-6 text_left">
+						<h3>Rennen</h3>
+						<p>Apropo Gold, wer von uns würde nicht gerne Gold als Läufer holen? Um im Rennen richtig zu punkten haben wir für euch ein paar exklusive Tipps vorbereitet: <br>
+						</p>
+						<ul>
+							<li>Richtige Ernährung:<br> Eine richtige Ernährung spielt im Sport eine überaus wichtige Rolle. Der Körper braucht alle Ressourcen um aufs Rennen hervorragend vorbereitet zu sein. Gönn deinem Körper nur das Beste! Schaut doch am besten mal bei unseren
+								leckereren Bananen Rezepten rein!
 							</li>
-							<li class="nav-item active nav_two">
-								<a class="nav-link" href="#desserts_Ueberblick">Desserts</a>
-							</li>
-							<li class="nav-item active nav_three">
-								<a class="nav-link" href="#getraenke_Ueberblick">Getränke</a>
-							</li>
-							<li class="nav-item active nav_four">
-								<a class="nav-link" href="#speisen_Ueberblick">Speisen</a>
-							</li>
-							<li class="nav-item active nav_five">
-								<a class="nav-link" href="#Ueber_uns">Über die Heuschrecken</a>
+							<li>Mentale Vorbereitung:<br> Jeder Profi im Rennen weiß: nur wer mit positiven Mindset in einem Wettkampf antritt, ist ein ernst zu nehmender Läufer/ Rennradfahrer. <br> Bereite dich schon Wochen vor dem Marathon oder dem Lauf auf das Rennen vor und
+								nutze ggf. diese <a href="https://www.sportlexikon.com/strasse-renntaktik">Renntaktik</a> der Radprofis (auch für Läufer gültig).
 							</li>
 						</ul>
 					</div>
-				</div>
-			</nav>
-
-			<!-- Intro -->
-			<section class="intro">
-				<div class="inner">
-					<div class="content">
-						<section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0s">
-							<h1>Bananenheuschrecken-Rennen</h1>
-						</section>
-						<section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0.1s">
-							<a class="btn btn-outline-secondary btn-lg" href="#welcome">Los geht's!</a>
-						</section>
+					<div class="col-xs-12 col-sm-6">
+						<img src="img/slider/test.png" class="img-fluid" alt="bananenheuschreckenrennen Rennen">
 					</div>
 				</div>
-			</section>
-
-			<!-- Fixed image -->
-			<figure class="hide">
-				<div class="fixed-wrap">
-					<div id="background">
-					</div>
-				</div>
-			</figure>
-
-
-			<!-- Main section -->
-			<div class="container-fluid reduce">
-				<!--Welcome -->
-				<div class="container-fluid padding" id="welcome">
-					<div class="row welcome text-center">
-						<div class="col-12">
-							<h2>Bananenheuschrecken-Rennen</h2>
-						</div>
-						<hr>
-						<div class="col-12">
-							<p>Fitness Kochrezepte vom Heuschreckenblog, die euch fit ins Rennen bringen. </p>
-						</div>
-					</div>
-				</div>
-
-				<!--Slider -->
-				<div id="slides" class="carousel slide" data-ride="carousel">
-					<ul class="carousel-indicators">
-						<li data-target="#slides" data-slide-to="0" class="active"></li>
-						<li data-target="#slides" data-slide-to="1"></li>
-						<li data-target="#slides" data-slide-to="2"></li>
-						<li data-target="#slides" data-slide-to="3"></li>
-					</ul>
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<a href="#desserts_rezept_himbeerpancake">
-								<img src="img/slider/bananenheuschreckenrennen-himbeerpancakes.jpg" alt="Desserts">
-								<div class="carousel-caption">
-									<h3>Himberpancake</h3>
-									<p>Dessert</p>
-								</div>
-							</a>
-						</div>
-						<div class="carousel-item">
-							<a href="#">
-								<img src="img/slider/bananenheuschreckenrennen-pancakes.jpg" alt="Desserts">
-								<div class="carousel-caption">
-									<h3>Bananen-Pancakes</h3>
-									<p>Desserts</p>
-								</div>
-							</a>
-						</div>
-						<div class="carousel-item">
-							<a href="#">
-								<img src="img/slider/bananenheuschreckenrennen-mueslischale.jpg" alt="Speisen">
-								<div class="carousel-caption">
-									<h3>Bananen Müsli</h3>
-									<p>Speisen</p>
-								</div>
-							</a>
-						</div>
-
-						<div class="carousel-item">
-							<a href="#">
-								<img src="img/slider/bananenheuschreckenrennen-galaxybowl.jpg" alt="bananenheuschreckenrennen galaxybowl ">
-								<div class="carousel-caption">
-									<h3>Starpotenzial im Rennen</h3>
-									<p>Galaxybowl</p>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#slides" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>
-
-				<!--Kategorien -->
-				<div class="container-fluid padding">
-					<div class="row text-center">
-						<div class="col-lg-4 col-xs-12 padding">
-							<a class="cat-link" href="#desserts">
-								<div class="kategorie-item">
-									<img src="img/Desserts.jpg" alt="Desserts">
-								</div>
-							</a>
-							<h3>Desserts</h3>
-							<p>Für schleckermeuler</p>
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<a class="cat-link" href="#getraenke">
-								<div class="kategorie-item">
-									<img src="img/Getraenke.jpg" alt="Getränke">
-								</div>
-							</a>
-							<h3>Getränke</h3>
-							<p>Für durstige</p>
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<a class="cat-link" href="#speisen">
-								<div class="kategorie-item">
-									<img src="img/Speisen.jpg" alt="Speisen">
-								</div>
-							</a>
-							<h3>Speisen</h3>
-							<p>Für hungrige</p>
-						</div>
-					</div>
-					<hr>
-				</div>
-
-				<!-- Information -->
-				<div class="container-fluid padding">
-					<div class="row">
-						<div class="col-lg-6 col-xs-12 text_left padding">
-							<!-- Das hier ist nur ein Dummy Text, gerne offen für Ideen :) -->
-							<h3>Das Ziel im Fokus</h3>
-							<p>Eine Banane vor dem Training – ist das sinnvoll? Die Nudelparty am Vorabend vor einem Lauf – steigert das die Ausdauer? Und was ist von Eiweiß-Shakes, Sport-Riegeln und mehr zu halten? Wer ambitioniert Sport treibt, stellt sich meist Fragen wie
-								diese. Im Bereich Fitness und Sport ist viel über eine vermeintlich leistungssteigernde Ernährung zu hören. Tatsache: Mit einer ausgewogenen Ernährung können Sie sportlich viel erreichen. Doch Eiweiß-Diäten, spezielle Sportprodukte und mehr sind
-								für den (Freizeit-) Sportler in der Regel weniger empfehlenswert. Wir zeigen, worauf es bei einer sportgerechten Ernährung ankommt.
-							</p>
-						</div>
-						<div class="col-lg-6 col-xs-12 col-sm-6 padding">
-							<img src="img/jogging.jpg" class="img-fluid" alt="Jogging Fitness">
-						</div>
-					</div>
-					<hr>
-				</div>
-
-				<!--Heuschrecken Beitrag   -->
-				<div class="container-fluid padding">
-					<div class="row">
-						<div class="col-lg-6 col-xs-12 padding">
-							<img src="img/slider/bananenheuschreckenrennen-pulverfladen.jpg" class="img-fluid" alt="Heuschrecken Pulver">
-						</div>
-						<div class="col-lg-6 col-xs-12 text_right padding">
-							<h3>Heuschrecken</h3>
-							<p> Wir konnten es zuerst auch nicht glauben, aber es gibt ein Heuschrecken Pulver! Mit dem Heuschrecken Pulver lassen sich verschiedene Leckereien zaubern, ganz wie mit herkömmlichen Protein Pulver. <br> Zum Beispiel:
-							</p>
-							<ul>
-								<li>Heuschrecken Energie Riegel</li>
-								<li>Heuschrecken Burger Patties</li>
-								<li>Heuschrecken Reis mit Bohnen</li>
-								<li>Heuschrecken Pfannkuchen</li>
-							</ul>
-							<p>
-								Es besteht aus 100% puren Heuschrecken. Wir haben das <a href="https://www.amazon.com/Cricket-powder-made-100-22/dp/B00OMCTODQ">Heuschrecken Pulver</a> auf Amazon gekauft <br> Unser Geheimtipp: <br> Falls ihr noch mehr Infos zu Spezialitäten aus
-								Heuschrecken möchtet, seid ihr bei <a href="https://www.cricketflours.com/">Cricket Flours</a> Gold richtig.
-							</p>
-						</div>
-					</div>
-					<hr>
-				</div>
-
-				<!--Rennen Beitrag   -->
-				<div class="container-fluid padding">
-					<div class="row">
-						<div class="col-lg-6 col-xs-12 text_left padding">
-							<h3>Rennen</h3>
-							<p>Apropo Gold, wer von uns würde nicht gerne Gold als Läufer holen? Um im Rennen richtig zu punkten haben wir für euch ein paar exklusive Tipps vorbereitet: <br>
-							</p>
-							<ul>
-								<li>Richtige Ernährung:<br> Eine richtige Ernährung spielt im Sport eine überaus wichtige Rolle. Der Körper braucht alle Ressourcen um aufs Rennen hervorragend vorbereitet zu sein. Gönn deinem Körper nur das Beste! Schaut doch am besten mal bei unseren
-									leckereren Bananen Rezepten rein!
-								</li>
-								<li>Mentale Vorbereitung:<br> Jeder Profi im Rennen weiß: nur wer mit positiven Mindset in einem Wettkampf antritt, ist ein ernst zu nehmender Läufer/ Rennradfahrer. <br> Bereite dich schon Wochen vor dem Marathon oder dem Lauf auf das Rennen vor und
-									nutze ggf. diese <a href="https://www.sportlexikon.com/strasse-renntaktik">Renntaktik</a> der Radprofis (auch für Läufer gültig).
-								</li>
-							</ul>
-						</div>
-						<div class="col-lg-6 col-xs-12 padding">
-							<img src="img/slider/test.png" class="img-fluid" alt="bananenheuschreckenrennen Rennen">
-						</div>
-					</div>
-					<hr>
-				</div>
-
-				<!--Bananen Beitrag   -->
-				<div class="container-fluid padding">
-					<div class="row" id="Bananen">
-						<div class="col-lg-6 col-xs-12 padding">
-							<img src="img/slider/bananenheuschreckenrennen-bananen.jpg" class="img-fluid" alt="bananenheuschreckenrennen Bananen">
-						</div>
-						<div class="col-lg-6 col-xs-12 text_right padding">
-							<h3>Bananen</h3>
-							<p>
-								Warum wir nicht mehr auf Bananen verzichten können.<br>Bei der Auswahl unserer Sportrezepte haben wir uns bewusst dazu entschieden, Bananen in den Mittelpunkt zu stellen. <br> Bananen sind Sportlernahrung Nummer 1, das steht fest. - Aber warum
-								ist das so? <br> Euer Heuschrecken Blog liefert 4 Gründe, warum Bananen die Nahrung für dein nächstes Rennen sind: <br>
-							</p>
-							<ol>
-								<li>
-									<b>Energielieferant</b><br> 
-									Eine große Banane punktet mit 240 Kilokalorien. Sie enthält drei natürliche Zucker: Saccharose, Glucose und Fruktose.<br><br>  
-								</li> 
-								<li>
-									<b>Allrounder</b><br>
-									Als Kohlenhydratspeicher liefert die Banane gerade Ausdauersportlern lange Energie ohne damit den Magen mit Ballaststoffen zu beschäftigen. <br> Außerdem enthalten Bananen wichtige Mineralstoffe, die gerade im Ausdauersprot unverzichtbar
-									sind. Aber icht nur auf die richtige Sporternährung kommt es an, sondern vor allem auch um eine ausreichende Wasserversorgung. „Genügend trinken“ heißt es. Unsere Läufer bekommen von unserem beliebten <a href="#getraenke_Ueberblick">Bananen Wasser</a> gar nicht genug. <br><br>  
-								</li> 
-								<li>
-									<b>Heilmittel</b><br> 
-									Bananen sollen Bluthochdruck vorbeugen. Da sie viel Kalium enthält und gleichzeitig wenig Salze enthält, hilft sie ideal. <br><br>  
-								</li> 
-								<li><b>Begleiter in der Diät</b><br> 
-									Je nach dem, ob man kurz vor einem Wettkampf oder einem Rennen steht, kann die Banane mit unterschiedlichen Reifegrad dem Ernährungsplan angepasst werden. Braucht ihr viele Kohlenhydrate, dann lasst die Banane noch reifen.
-									Umso reifer sie ist, umso mehr Kohlenhydrate enthält sie. <br><br>  
-								</li>
-							</ol>
-						</div>
-					</div>
-					<hr>
-				</div>
-				
-				<!-- Über uns -->
-				<div class="container-fluid padding">
-					<div class="row" id="Ueber_uns">
-						<div class="col-12 text-center">
-							<h3>Über uns Heuschrecken</h3>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 col-xs-12 padding">
-							<b>Was hat es mit diesem Heuschrecken Blog auf sich?</b><br><br>
-							<p>Was hat es mit diesem Heuschrecken Blog auf sich? <br> Unser Maskottchen ist die Heuschrecke. Heuschrecken springen weit und bringen eine hohe Ausdauer mit sich.<br> Kraftvoll, anmutig und mit großen Sprüngen bringen wir euch wie die Heuschrecken
-								ins Rennen. <br> Auf diesem Blog findet ihr Sportrezepte für Läufer, Rennradfahrer und alle anderen Sportbegeisterten. Bei unseren Heuschrecken Rezepten stehen vor allem Banenen im Mittelpunkt.</p>
-							
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<b>Aber warum Bananen?</b><br><br>
-							<p>Warum wir finden, dass ausgerechnet Bananen die beste Grundlage für alle Gerichte im Ausdauersport sind erfahrt ihr in unserem <a href="#Bananen">Bananen</a> Beitrag.</p>
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<b>Andere Heuschrecken Blogs</b><br><br>
-							<p>Links zu anderen Blogs</p>
-						</div>
-					</div>
-					<hr>
-				</div>
-
-				<!-- Kategorie Description -->
-				<div class="container-fluid padding">
-					<div class="row" id="desserts">
-						<div class="col-lg-6 col-xs-12 padding">
-							<a href="desserts/desserts.html">
-								<img src="img/Desserts.jpg" class="img-fluid" alt="Zutaten Dauer Schwierigkeit">
-							</a>
-						</div>
-						<div class="col-lg-6 col-xs-12 text_right padding">
-							<h3>Desserts</h3>
-							<p>Beim Dessert hat jeder andere Vorlieben. Manche bevorzugen cremige Desserts, für andere soll es lieber leicht und fruchtig sein, Kinder freuen sich über Waffeln oder Pfannkuchen. Hier finden Sie süße Rezepte für jeden Geschmack!
-							</p>
-							<br>
-							<a class="btn btn-outline-secondary btn-lg" href="#desserts_Ueberblick">
-									Zu den Desserts
-								</a>
-						</div>
-					</div>
-					<hr>
-					<div class="row" id="getraenke">
-						<div class="col-lg-6 col-xs-12 text_left padding">
-							<h3>Getränke</h3>
-							<p>Sie sind auf der Suche nach leckeren Getränke-Rezepten für eine Party mit Freunden oder der Familie? Oder brauchen Sie einfach ein wenig Inspirationen für ein abwechslungsreiches Frühstück? In dem großen Sortiment an Getränke-Rezepten aus der Versuchsküche
-								von Dr. Oetker finden Sie raffinierte Zubereitungsideen für eine Bowle, einen Sirup und für viele andere Getränke. Seien Sie kreativ und variieren Sie die Rezepte für Getränke ganz nach Ihren Vorlieben. Entdecken Sie die große Vielfalt an Getränke-Rezepten
-								von Dr. Oetker, die Ihnen garantiert gelingen.
-							</p>
-							<br>
-							<a class="btn btn-outline-secondary btn-lg" href="#getraenke_Ueberblick">
-									Zu den Getränken
-								</a>
-						</div>
-						<div class="col-lg-6 col-xs-12 padding">
-							<a href="getraenke/getraenke.html">
-								<img src="img/Getraenke.jpg" class="img-fluid" alt="Zubereitung">
-							</a>
-						</div>
-					</div>
-					<hr>
-					<div class="row" id="speisen">
-						<div class="col-lg-6 col-xs-12 padding">
-							<a href="speisen/speisen.html">
-								<img src="img/Speisen.jpg" class="img-fluid" alt="Zutaten Dauer Schwierigkeit">
-							</a>
-						</div>
-						<div class="col-lg-6 col-xs-12 text_right padding">
-							<h3>Speisen</h3>
-							<p>Haben Sie wenig Zeit und trotzdem Lust auf ein leckeres Essen? Dann kochen Sie unsere schnellen Rezepte. Hier finden Sie Gerichte mit Fleisch oder Fisch, für Vegetarier und Veganer und jede Menge weitere saisonale Rezeptideen, die ruckzuck zubereitet
-								sind.
-							</p>
-							<br>
-							<a class="btn btn-outline-secondary btn-lg" href="#speisen_Ueberblick">
-									Zu den Speisen
-								</a>
-						</div>
-					</div>
-					<hr>
-				</div>
-
-
-
-				<!-- Desserts -->
-				<div class="container-fluid padding">
-					<div class="row text-center" id="desserts_Ueberblick">
-						<div class="col-12">
-							<h3>Desserts - Überblick</h3>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-himbeerpancakes.jpg" alt="dummy">
-								<div class="card-body">
-									<h4 class="card-title">Himbeerpancake</h4>
-									<p class="card-text">Arbeitszeit: ca. 10 Min. <br>Schwierigkeitsgrad: normal</p>
-									<a href="https://www.gutekueche.ch/himbeer-pancakes-rezept-4934" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-bananenbrot.jpg" alt="bananenheuschreckenrennen bananenbrot">
-								<div class="card-body">
-									<h4 class="card-title">Bananenbrot</h4>
-									<p class="card-text">Arbeitszeit ca. 20 Min. <br>Schwierigkeitsgrad: easy</p>
-									<a href="https://www.chefkoch.de/rezepte/2733891425739452/Bananenbrot-ohne-extra-Fett-und-Zucker.html" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-bananenmuffins.jpg" alt="bananenheuschreckenrennen bananenmuffins">
-								<div class="card-body">
-									<h4 class="card-title">Bananenmuffins</h4>
-									<p class="card-text">Arbeitszeit: ca.15 Min. <br>Schwierigkeitsgrad: easy</p>
-									<a href="https://www.chefkoch.de/rezepte/705201173165539/Danis-Bananenmuffins.html" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-bananensplit.jpg" alt="bananenheuschreckenrennen-bananensplit">
-								<div class="card-body">
-									<h4 class="card-title">Bananensplit</h4>
-									<p class="card-text">Arbeitszeit: ca. 10 Min. <br>Schwierigkeitsgrad: easy</p>
-									<a href="https://www.chefkoch.de/rezepte/1220031227455420/Bananensplit-ein-Traum-aus-Schoko-Banane-und-Vanille-Sahne.html" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-bananensplit2.jpg" alt="bananenheuschreckenrennen bananensplit No.2">
-								<div class="card-body">
-									<h4 class="card-title">Bananensplit No. 2</h4>
-									<p class="card-text">Arbeitszeit: ca. 10 Min. <br>Schwierigkeitsgrad: easy</p>
-									<a href="https://www.chefkoch.de/rezepte/1718451280522725/Bananensplit.html" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/Block1.jpg" alt="dummy">
-								<div class="card-body">
-									<h4 class="card-title">Dummy</h4>
-									<p class="card-text">Dummy</p>
-									<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<hr>
-				</div>
-
-				<!-- Getränke -->
-				<div class="container-fluid padding">
-					<div class="row text-center" id="getraenke_Ueberblick">
-						<div class="col-12">
-							<h3>Getränke - Überblick</h3>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-wasser.jpg" alt="bananenheuschreckenrennen Wasser">
-								<div class="card-body">
-									<h4 class="card-title">Bananen Wasser</h4>
-									<p class="card-text">Arbeitszeit: 3 Min. <br>Schwierigkeitsgrad: easy</p>
-									<a href="https://www.chefkoch.de/rezepte/971661202810164/Banane-Blaubeer-Smoothie.html" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-saft.jpg" alt="bananenheuschreckenrennen Saft">
-								<div class="card-body">
-									<h4 class="card-title">Banenen Saft</h4>
-									<p class="card-text">Arbeitszeit: 3 Min. <br>Schwierigkeitsgrad: easy</p>
-									<a href="https://www.chefkoch.de/rezepte/178401077613041/KiBa-Kirschbananensaft.html" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-getraenk.jpg" alt="bananenheuschreckenrennen Sorbet Getraenk">
-								<div class="card-body">
-									<h4 class="card-title">Bananen Sorbet Drink</h4>
-									<p class="card-text">Arbeitszeit: 4 Min. <br>Schwierigkeitsgrad: easy</p>
-									<a href="http://de.allrecipes.com/rezept/21338/bananen-sorbet.aspx" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-milchshake.jpg" alt="bananenheuschreckenrennen Milchshake">
-								<div class="card-body">
-									<h4 class="card-title">Bananen Milchshake</h4>
-									<p class="card-text">Arbeitszeit: 3 Min. <br>Schwierigkeitsgrad: easy</p>
-									<a href="https://www.chefkoch.de/rezepte/425431133454264/Bananen-Milchshake.html" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/Block1.jpg" alt="dummy">
-								<div class="card-body">
-									<h4 class="card-title">Dummy</h4>
-									<p class="card-text">Dummy</p>
-									<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/Block1.jpg" alt="dummy">
-								<div class="card-body">
-									<h4 class="card-title">Dummy</h4>
-									<p class="card-text">Dummy</p>
-									<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<hr>
-				</div>
-
-				<!-- Speisen -->
-				<div class="container-fluid padding">
-					<div class="row text-center" id="speisen_Ueberblick">
-						<div class="col-12">
-							<h3>Speisen - Überblick</h3>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-bananenbrot.jpg" alt="bananenheuschreckenrennen bananenbrot">
-								<div class="card-body">
-									<h4 class="card-title">Bananenbrot</h4>
-									<p class="card-text">Arbeitszeit ca. 20 Min. <br>Schwierigkeitsgrad: easy</p>
-									<a href="https://www.chefkoch.de/rezepte/2733891425739452/Bananenbrot-ohne-extra-Fett-und-Zucker.html" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-bananenmuffins.jpg" alt="bananenheuschreckenrennen bananenmuffins">
-								<div class="card-body">
-									<h4 class="card-title">Bananenmuffins</h4>
-									<p class="card-text">Arbeitszeit: ca.15 Min. <br>Schwierigkeitsgrad: easy</p>
-									<a href="https://www.chefkoch.de/rezepte/705201173165539/Danis-Bananenmuffins.html" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-bowl.jpg" alt="bananenheuschreckenrennen Frühstücksbowl">
-								<div class="card-body">
-									<h4 class="card-title">Frühstücksbowl</h4>
-									<p class="card-text">Arbeitszeit: 5 Min. <br>Schwierigkeitsgrad: easy</p>
-									<a href="https://www.chefkoch.de/rezepte/3437601512120100/Fruehstuecksbowl-mit-Leinoel-Quark.html" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/Block1.jpg" alt="dummy">
-								<div class="card-body">
-									<h4 class="card-title">Dummy</h4>
-									<p class="card-text">Dummy</p>
-									<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/Block1.jpg" alt="dummy">
-								<div class="card-body">
-									<h4 class="card-title">Dummy</h4>
-									<p class="card-text">Dummy</p>
-									<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-xs-12 padding">
-							<div class="card">
-								<img class="card-img-top" src="img/Block1.jpg" alt="dummy">
-								<div class="card-body">
-									<h4 class="card-title">Dummy</h4>
-									<p class="card-text">Dummy</p>
-									<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<hr>
-				</div>
-
-				<!--Footer -->
-				<footer>
-					<div class="container-fluid padding">
-						<div class="row text-center" id="Kontakt">
-							<div class="col-lg-6 col-xs-12 padding">
-								<img src="img/bananenheuschreckenrennen-logo.svg" class="logo" alt="Bananenheuschrecken-Rennen Logo">
-								<hr>
-								<p><b>Hochschule Ravensburg-Weingarten</b></p>
-								<p>Gebäude H, Raum H022</p>
-								<p>Doggenriedstr.</p>
-								<p>88250 Weingarten</p>
-								<p>Tel: +49 751 501-9344</p>
-								<p>Fax: +49 751 501-9876</p>
-								<p>E-Mail: info@hs-weingarten.de</p>
-							</div>
-							<div class="col-lg-6 col-xs-12 padding">
-								<hr>
-								<p>Sprechzeiten</p>
-								<hr>
-								<p>Mo - Do von 10:00 - 12:00 und 13:00 - 14:15 Uhr</p>
-								<p>Freitags von 09:00 - 12:00 Uhr</p>
-							</div>
-							<div class="col-12">
-								<hr>
-								<h3>&copy; bananenheuschrecken-rezepte.de</h3>
-							</div>
-						</div>
-					</div>
-				</footer>
+				<hr>
 			</div>
+
+			<!--Bananen Beitrag   -->
+			<div class="container-fluid padding">
+				<div class="row padding">
+					<div class="col-xs-12 col-sm-6 text_left">
+						<h3>Bananen</h3>
+						<p>Warum wir nicht mehr auf Bananen verzichten können.<br>Bei der Auswahl unserer Sportrezepte haben wir uns bewusst dazu entschieden, Bananen in den Mittelpunkt zu stellen. <br> Bananen sind Sportlernahrung Nummer 1, das steht fest. - Aber warum
+							ist das so? <br> Euer Heuschrecken Blog liefert 4 Gründe, warum Bananen die Nahrung für dein nächstes Rennen sind: <br>
+							<ol>
+								<li><h6>Energielieferant</h6> Eine große Banane punktet mit 240 Kilokalorien. Sie enthält drei natürliche Zucker: Saccharose, Glucose und Fruktose. </li> <br>
+								<li><h6>Allrounder</h6> Als Kohlenhydratspeicher liefert die Banane gerade Ausdauersportlern lange Energie ohne damit den Magen mit Ballaststoffen zu beschäftigen. <br> Außerdem enthalten Bananen wichtige Mineralstoffe, die gerade im Ausdauersprot unverzichtbar
+									sind. Aber icht nur auf die richtige Sporternährung kommt es an, sondern vor allem auch um eine ausreichende Wasserversorgung. „Genügend trinken“ heißt es. Unsere Läufer bekommen von unserem beliebten <a href="#bananenwasser">Bananen Wasser</a> gar nicht genug. </li> <br>
+								<li><h6>Heilmittel</h6> Bananen sollen Bluthochdruck vorbeugen. Da sie viel Kalium enthält und gleichzeitig wenig Salze enthält, hilft sie ideal. </li> <br>
+								<li><h6>Begleiter in der Diät</h6> Je nach dem, ob man kurz vor einem Wettkampf oder einem Rennen steht, kann die Banane mit unterschiedlichen Reifegrad dem Ernährungsplan angepasst werden. Braucht ihr viele Kohlenhydrate, dann lasst die Banane noch reifen.
+									Umso reifer sie ist, umso mehr Kohlenhydrate enthält sie. </li><br>
+							</ol>
+						</p>
+
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<img src="img/slider/bananenheuschreckenrennen-bananen.jpg" class="img-fluid" alt="bananenheuschreckenrennen Bananen">
+					</div>
+				</div>
+				<hr>
+			</div>
+			<!-- Über uns -->
+			<div class="container-fluid padding">
+				<div class="row padding" id="Ueber_uns">
+					<div class="col-12 text-center">
+						<h3>Über uns Heuschrecken</h3>
+					</div>
+				</div>
+				<div class="row padding">
+					<div class="col-12 text-center">
+						<h6>Was hat es mit diesem Heuschrecken Blog auf sich?</h6>
+						<p>Was hat es mit diesem Heuschrecken Blog auf sich? <br> Unser Maskottchen ist die Heuschrecke. Heuschrecken springen weit und bringen eine hohe Ausdauer mit sich.<br> Kraftvoll, anmutig und mit großen Sprüngen bringen wir euch wie die Heuschrecken
+							ins Rennen. <br> Auf diesem Blog findet ihr Sportrezepte für Läufer, Rennradfahrer und alle anderen Sportbegeisterten. Bei unseren Heuschrecken Rezepten stehen vor allem Banenen im Mittelpunkt.</p>
+						<h6>Aber warum Bananen?</h6>
+						<p>Warum wir finden, dass ausgerechnet Bananen die beste Grundlage für alle Gerichte im Ausdauersport sind erfahrt ihr in unserem <a href="#bananen">Bananen</a> Beitrag.</p>
+					</div>
+				</div>
+				<hr>
+			</div>
+
+			<!-- Kategorie Description -->
+			<div class="container-fluid padding">
+				<div class="row padding" id="desserts">
+					<div class="col-lg-6">
+						<a href="desserts/desserts.html">
+							<img src="img/Desserts.jpg" class="img-fluid" alt="Zutaten Dauer Schwierigkeit">
+						</a>
+					</div>
+					<div class="col-lg-6 text_right">
+						<h3>Desserts</h3>
+						<p>Beim Dessert hat jeder andere Vorlieben. Manche bevorzugen cremige Desserts, für andere soll es lieber leicht und fruchtig sein, Kinder freuen sich über Waffeln oder Pfannkuchen. Hier finden Sie süße Rezepte für jeden Geschmack!
+						</p>
+						<br>
+						<a class="btn btn-outline-secondary btn-lg" href="#desserts_Ueberblick">
+								Zu den Desserts
+							</a>
+					</div>
+				</div>
+				<hr>
+				<div class="row padding" id="getraenke">
+					<div class="col-lg-6 text_left">
+						<h3>Getränke</h3>
+						<p>Sie sind auf der Suche nach leckeren Getränke-Rezepten für eine Party mit Freunden oder der Familie? Oder brauchen Sie einfach ein wenig Inspirationen für ein abwechslungsreiches Frühstück? In dem großen Sortiment an Getränke-Rezepten aus der Versuchsküche
+							von Dr. Oetker finden Sie raffinierte Zubereitungsideen für eine Bowle, einen Sirup und für viele andere Getränke. Seien Sie kreativ und variieren Sie die Rezepte für Getränke ganz nach Ihren Vorlieben. Entdecken Sie die große Vielfalt an Getränke-Rezepten
+							von Dr. Oetker, die Ihnen garantiert gelingen.
+						</p>
+						<br>
+						<a class="btn btn-outline-secondary btn-lg" href="#getraenke_Ueberblick">
+								Zu den Getränken
+							</a>
+					</div>
+					<div class="col-lg-6">
+						<a href="getraenke/getraenke.html">
+							<img src="img/Getraenke.jpg" class="img-fluid" alt="Zubereitung">
+						</a>
+					</div>
+				</div>
+				<hr>
+				<div class="row padding" id="speisen">
+					<div class="col-lg-6">
+						<a href="speisen/speisen.html">
+							<img src="img/Speisen.jpg" class="img-fluid" alt="Zutaten Dauer Schwierigkeit">
+						</a>
+					</div>
+					<div class="col-lg-6 text_right">
+						<h3>Speisen</h3>
+						<p>Haben Sie wenig Zeit und trotzdem Lust auf ein leckeres Essen? Dann kochen Sie unsere schnellen Rezepte. Hier finden Sie Gerichte mit Fleisch oder Fisch, für Vegetarier und Veganer und jede Menge weitere saisonale Rezeptideen, die ruckzuck zubereitet
+							sind.
+						</p>
+						<br>
+						<a class="btn btn-outline-secondary btn-lg" href="#speisen_Ueberblick">
+								Zu den Speisen
+							</a>
+					</div>
+				</div>
+				<hr>
+			</div>
+
+
+
+			<!-- Desserts -->
+			<div class="container-fluid padding">
+				<div class="row text-center padding" id="desserts_Ueberblick">
+					<div class="col-12">
+						<h3>Desserts - Überblick</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-himbeerpancakes.jpg" alt="dummy">
+							<div class="card-body">
+								<h4 class="card-title">Himbeerpancake</h4>
+								<p class="card-text">Arbeitszeit: ca. 10 Min. <br>Schwierigkeitsgrad: normal</p>
+								<a href="https://www.gutekueche.ch/himbeer-pancakes-rezept-4934" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-bananenbrot.jpg" alt="bananenheuschreckenrennen bananenbrot">
+							<div class="card-body">
+								<h4 class="card-title">Bananenbrot</h4>
+								<p class="card-text">Arbeitszeit ca. 20 Min. <br>Schwierigkeitsgrad: easy</p>
+								<a href="https://www.chefkoch.de/rezepte/2733891425739452/Bananenbrot-ohne-extra-Fett-und-Zucker.html" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-bananenmuffins.jpg" alt="bananenheuschreckenrennen bananenmuffins">
+							<div class="card-body">
+								<h4 class="card-title">Bananenmuffins</h4>
+								<p class="card-text">Arbeitszeit: ca.15 Min. <br>Schwierigkeitsgrad: easy</p>
+								<a href="https://www.chefkoch.de/rezepte/705201173165539/Danis-Bananenmuffins.html" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-bananensplit.jpg" alt="bananenheuschreckenrennen-bananensplit">
+							<div class="card-body">
+								<h4 class="card-title">Bananensplit</h4>
+								<p class="card-text">Arbeitszeit: ca. 10 Min. <br>Schwierigkeitsgrad: easy</p>
+								<a href="https://www.chefkoch.de/rezepte/1220031227455420/Bananensplit-ein-Traum-aus-Schoko-Banane-und-Vanille-Sahne.html" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-bananensplit2.jpg" alt="bananenheuschreckenrennen bananensplit No.2">
+							<div class="card-body">
+								<h4 class="card-title">Bananensplit No. 2</h4>
+								<p class="card-text">Arbeitszeit: ca. 10 Min. <br>Schwierigkeitsgrad: easy</p>
+								<a href="https://www.chefkoch.de/rezepte/1718451280522725/Bananensplit.html" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/Block1.jpg" alt="dummy">
+							<div class="card-body">
+								<h4 class="card-title">Dummy</h4>
+								<p class="card-text">Dummy</p>
+								<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+			</div>
+
+			<!-- Getränke -->
+			<div class="container-fluid padding">
+				<div class="row text-center padding" id="getraenke_Ueberblick">
+					<div class="col-12">
+						<h3>Getränke - Überblick</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-wasser.jpg" alt="bananenheuschreckenrennen Wasser">
+							<div class="card-body">
+								<h4 class="card-title">Bananen Wasser</h4>
+								<p class="card-text">Arbeitszeit: 3 Min. Schwierigkeitsgrad: easy</p>
+								<a href="https://www.chefkoch.de/rezepte/971661202810164/Banane-Blaubeer-Smoothie.html" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-saft.jpg" alt="bananenheuschreckenrennen Saft">
+							<div class="card-body">
+								<h4 class="card-title">Banenen Saft</h4>
+								<p class="card-text">Arbeitszeit: 3 Min. Schwierigkeitsgrad: easy</p>
+								<a href="https://www.chefkoch.de/rezepte/178401077613041/KiBa-Kirschbananensaft.html" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-getraenk.jpg" alt="bananenheuschreckenrennen Sorbet Getraenk">
+							<div class="card-body">
+								<h4 class="card-title">Bananen Sorbet Drink</h4>
+								<p class="card-text">Arbeitszeit: 4 Min. Schwierigkeitsgrad: easy</p>
+								<a href="http://de.allrecipes.com/rezept/21338/bananen-sorbet.aspx" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-milchshake.jpg" alt="bananenheuschreckenrennen Milchshake">
+							<div class="card-body">
+								<h4 class="card-title">Bananen Milchshake</h4>
+								<p class="card-text">Arbeitszeit: 3 Min. Schwierigkeitsgrad: easy</p>
+								<a href="https://www.chefkoch.de/rezepte/425431133454264/Bananen-Milchshake.html" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/Block1.jpg" alt="dummy">
+							<div class="card-body">
+								<h4 class="card-title">Dummy</h4>
+								<p class="card-text">Dummy</p>
+								<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/Block1.jpg" alt="dummy">
+							<div class="card-body">
+								<h4 class="card-title">Dummy</h4>
+								<p class="card-text">Dummy</p>
+								<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+			</div>
+
+			<!-- Speisen -->
+			<div class="container-fluid padding">
+				<div class="row text-center padding" id="speisen_Ueberblick">
+					<div class="col-12">
+						<h3>Speisen - Überblick</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-bananenbrot.jpg" alt="bananenheuschreckenrennen bananenbrot">
+							<div class="card-body">
+								<h4 class="card-title">Bananenbrot</h4>
+								<p class="card-text">Arbeitszeit ca. 20 Min. <br>Schwierigkeitsgrad: easy</p>
+								<a href="https://www.chefkoch.de/rezepte/2733891425739452/Bananenbrot-ohne-extra-Fett-und-Zucker.html" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-bananenmuffins.jpg" alt="bananenheuschreckenrennen bananenmuffins">
+							<div class="card-body">
+								<h4 class="card-title">Bananenmuffins</h4>
+								<p class="card-text">Arbeitszeit: ca.15 Min. <br>Schwierigkeitsgrad: easy</p>
+								<a href="https://www.chefkoch.de/rezepte/705201173165539/Danis-Bananenmuffins.html" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/slider/bananenheuschreckenrennen-bowl.jpg" alt="bananenheuschreckenrennen Frühstücksbowl">
+							<div class="card-body">
+								<h4 class="card-title">Frühstücksbowl</h4>
+								<p class="card-text">Arbeitszeit: 5 Min. <br>Schwierigkeitsgrad: easy</p>
+								<a href="https://www.chefkoch.de/rezepte/3437601512120100/Fruehstuecksbowl-mit-Leinoel-Quark.html" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/Block1.jpg" alt="dummy">
+							<div class="card-body">
+								<h4 class="card-title">Dummy</h4>
+								<p class="card-text">Dummy</p>
+								<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/Block1.jpg" alt="dummy">
+							<div class="card-body">
+								<h4 class="card-title">Dummy</h4>
+								<p class="card-text">Dummy</p>
+								<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 padding">
+						<div class="card">
+							<img class="card-img-top" src="img/Block1.jpg" alt="dummy">
+							<div class="card-body">
+								<h4 class="card-title">Dummy</h4>
+								<p class="card-text">Dummy</p>
+								<a href="#" class="btn btn-outline-secondary">Zum Rezept</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+			</div>
+
+			<!--Footer -->
+			<footer>
+				<div class="container-fluid padding">
+					<div class="row text-center" id="Kontakt">
+						<div class="col-md-6">
+							<img src="img/bananenheuschreckenrennen-logo.svg" class="logo" alt="Bananenheuschrecken-Rennen Logo">
+							<hr>
+							<p><b>Hochschule Ravensburg-Weingarten</b></p>
+							<p>Gebäude H, Raum H022</p>
+							<p>Doggenriedstr.</p>
+							<p>88250 Weingarten</p>
+							<p>Tel: +49 751 501-9344</p>
+							<p>Fax: +49 751 501-9876</p>
+							<p>E-Mail: info@hs-weingarten.de</p>
+						</div>
+						<div class="col-md-6">
+							<hr>
+							<h5>Sprechzeiten</h5>
+							<hr>
+							<p>Mo - Do von 10:00 - 12:00 und 13:00 - 14:15 Uhr</p>
+							<p>Freitags von 09:00 - 12:00 Uhr</p>
+						</div>
+						<div class="col-12">
+							<hr>
+							<h5>&copy; bananenheuschrecken-rezepte.de</h5>
+						</div>
+					</div>
+				</div>
+			</footer>
 		</div>
-		<script src="js/functions.js"></script>
-	</body>
+	</div>
+	<script src="js/functions.js"></script>
+</body>
+
 </html>
