@@ -12,15 +12,15 @@ html, body{
 }
 
 h1{
-	font-size: 600%;
+	font-size: 450%;
 }
 
 h2{
-	font-size: 400%;
+	font-size: 300%;
 }
 
 h3{
-	font-size: 300%;
+	font-size: 250%;
 }
 
 h4{
@@ -49,18 +49,16 @@ p{
 	padding-right:10%;
 	padding-left: 5%;
 	padding-top: 1%;
-	border-left:solid;
 }
 
 .text_right{
 	padding-left:10%;
 	padding-right: 5%;
 	padding-top: 1%;
-	border-right:solid;
 }
 
 img{
-	border: solid;
+	border: solid 2px;
 	border-color: black;
 }
 
@@ -112,7 +110,7 @@ img{
 /* Menü */
 .navbar{
 	top: 40%;
-	left: 82.5%;
+	right: 82.5%;
 }
 
 .navbar-nav a:focus { 
@@ -156,6 +154,11 @@ img{
 
 .intro .btn:hover{
 	background-color: grey;
+}
+
+/*Welcome*/
+.welcome p{
+	font-size: 120%;
 }
 
 /*Slider*/
@@ -282,10 +285,12 @@ figure {
   will-change: transform;
 }
 
+/*footer */
 footer{
 	padding-top: 2rem;
 	padding-top: 2%;
 }
+
 
 /*---Media Queries --*/
 @media (max-width: 1200px) {
