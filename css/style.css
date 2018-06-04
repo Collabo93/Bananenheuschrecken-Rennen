@@ -109,11 +109,14 @@ img{
 
 /* Menü */
 .navbar{
-	top: 40%;
-	right: 82.5%;
+	background-color: rgba(0,0,0,0.1);
 }
 
-.navbar-nav a:focus { 
+.navbar .navbar-nav > li > a {
+	color: white !important;
+}
+
+.navbar .navbar-nav > li > a:focus { 
 	color: orange !important; 
 }
 
@@ -221,18 +224,6 @@ img{
   background-color: rgba(128,128,128,0.2);
 }
 
-
-/*Jumper*/
-.jumbotron {
-	padding: 1rem;
-	border: solid 1px;
-}
-
-.jumbotron p{
-	font-size: 1.2em;
-	padding-top: 0.5em;
-}
-
 /*Welcome*/
 .welcome{
 	margin: 0 auto;
@@ -251,6 +242,12 @@ img{
 	height: 80%;
 	width: 80%;
 	margin: 1rem;
+}
+
+/* Rezepte toggler */
+.Rezepte_toggle{
+	background-color: rgba(0,0,0,0.1);
+	border: solid 1px;
 }
 
 /* Background */
