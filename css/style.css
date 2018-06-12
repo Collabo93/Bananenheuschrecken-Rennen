@@ -272,8 +272,6 @@ figure {
   height: 100%;
   background-size: cover;
   background-position: center center;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
   will-change: transform;
 }
 
@@ -459,6 +457,10 @@ footer{
 		padding-left: 0;
 		padding-top: 0;
 		border: none
+	}
+	
+	.btn{
+		font-size. 100%;		
 	}
 }
 @media (max-width: 576px) {	
