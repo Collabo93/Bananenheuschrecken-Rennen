@@ -59,8 +59,12 @@ p{
 
 .logo{
 	height: 16%;
-	width: 26%;
-	border: none !important;
+	width: 16%;
+}
+
+.logo_header{
+	height: 7%;
+	width: 7%;
 }
 
 #load_everything{
@@ -394,6 +398,10 @@ footer{
 		padding-top: 0;
 		border: none
 	}
+	
+	.intro .btn{
+		font-size: 250%;
+	}
 }
 @media (max-width: 768px) {	
 	.reduce{
@@ -459,8 +467,8 @@ footer{
 		border: none
 	}
 	
-	.btn{
-		font-size. 100%;		
+	.intro .btn{
+		font-size: 180%;
 	}
 }
 @media (max-width: 576px) {	
@@ -473,11 +481,11 @@ footer{
 	}
 	
 	h1{
-		font-size: 180%;
+		font-size: 140%;
 	}
 
 	h2{
-		font-size: 150%;
+		font-size: 130%;
 	}
 
 	h3{
@@ -485,15 +493,15 @@ footer{
 	}
 
 	h4{
-		font-size: 120%;
+		font-size: 110%;
 	}
 
 	h5{
-		font-size: 120%;
+		font-size: 100%;
 	}
 
 	p{
-		font-size: 100%
+		font-size: 80%
 	}
 	
 	.intro{
@@ -506,7 +514,7 @@ footer{
 	}
 	
 	.carousel-caption p{
-		font-size: 100%;
+		font-size: 80%;
 	}
 	
 	.carousel-indicators{
@@ -525,6 +533,10 @@ footer{
 		padding-left: 0;
 		padding-top: 0;
 		border: none
+	}
+	
+	.intro .btn{
+		font-size: 100%;
 	}
 }
 
