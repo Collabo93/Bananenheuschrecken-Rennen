@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 	<url>
-		<loc>https://www.bananenheuschrecken-rennen.info</loc>
+		<loc>https://www.bananenheuschrecken-rennen.info/</loc>
 		<image:image>
 			<image:loc>https://www.bananenheuschrecken-rennen.info/img/bananenheuschreckenrennen-background.jpg</image:loc>
+			<image:title>Bananen</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/Landing_picture/landing_picture_HighRes.jpg</image:loc>
+			<image:title>Heuschrecke landing picture</image:title>
+			<image:caption>Heuschrecke landing picture HighRes resolution</image:caption>
 		</image:image>
 	</url> 
 </urlset> 
