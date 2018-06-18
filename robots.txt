@@ -1,0 +1,4 @@
+# robots.txt fuer bananenheuschrecken-rezepte.de
+User-agent: *
+Disallow: /datenschutz.html
+Sitemap: https://www.bananenheuschrecken-rennen.info/sitemap.xml
