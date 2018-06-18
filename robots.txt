@@ -2,3 +2,4 @@
 User-agent: *
 Disallow: /datenschutz.html
 Sitemap: https://www.bananenheuschrecken-rennen.info/sitemap.xml
+Sitemap: https://www.bananenheuschrecken-rennen.info/sitemap-images.xml
