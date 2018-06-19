@@ -4,13 +4,107 @@
 	<url>
 		<loc>https://www.bananenheuschrecken-rennen.info/</loc>
 		<image:image>
-			<image:loc>https://www.bananenheuschrecken-rennen.info/img/bananenheuschreckenrennen-background.jpg</image:loc>
-			<image:title>Bananen</image:title>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/beitragsbilder/bananen.jpg</image:loc>
+			<image:title>Bananen Beitrag</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://www.bananenheuschrecken-rennen.info/img/Landing_picture/landing_picture_HighRes.jpg</image:loc>
-			<image:title>Heuschrecke landing picture</image:title>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/beitragsbilder/desserts.jpg</image:loc>
+			<image:title>Bananen Desserts</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/beitragsbilder/getraenke.jpg</image:loc>
+			<image:title>Bananen Getr&auml;nke</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/beitragsbilder/heuschreckenpulver.jpg</image:loc>
+			<image:title>Heuschrecken Pulver</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/beitragsbilder/laufen.jpg</image:loc>
+			<image:title>Laufen Beitrag</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/beitragsbilder/rennen.jpg</image:loc>
+			<image:title>Rennen Beitrag</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/beitragsbilder/speisen.jpg</image:loc>
+			<image:title>Bananen Speisen</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/kategorie/bananen-dessert.jpg</image:loc>
+			<image:title>leckeres Bananen Dessert</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/kategorie/bananen-drinks.jpg</image:loc>
+			<image:title>Bananen Drinks</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/kategorie/bananen-gerichte.jpg</image:loc>
+			<image:title>Heuschrecken Gerichte</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/Landing_picture/heuschrecke.jpg</image:loc>
+			<image:title>Heuschrecke Landing Picture</image:title>
 			<image:caption>Heuschrecke landing picture HighRes resolution</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/Landing_picture/heuschrecke-LowRes.jpg</image:loc>
+			<image:title>Heuschrecke Landing Picture</image:title>
+			<image:caption>LowRes</image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/Landing_picture/heuschrecke-MidRes.jpg</image:loc>
+			<image:title>Heuschrecke Landing Picture</image:title>
+			<image:caption>MidRes</image:caption>
+		</image:image>	
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-bananenbrot.jpg</image:loc>
+			<image:title>Bananen Brot</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-bananenmuffins.jpg</image:loc>
+			<image:title>Bananen Muffins</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-bananensplit2.jpg</image:loc>
+			<image:title>Bananen Split</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/slider/BananenHeuschreckenRennen-bowl.jpg</image:loc>
+			<image:title>Bananen Bowl</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-getraenk.jpg</image:loc>
+			<image:title>Bananen Sorbet Getr&auml;nk</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-kuchen.jpg</image:loc>
+			<image:title>Bananen Kuchen</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-pizza.jpg</image:loc>
+			<image:title>Bananen Pizza</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-saft.jpg</image:loc>
+			<image:title>Bananen Saft</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-wasser.jpg</image:loc>
+			<image:title>Bananen Wasser</image:title>
+		</image:image>	
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/bananenheuschreckenrennen-background.jpg</image:loc>
+			<image:title>Bananen Background</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/bananenheuschreckenrennen-background.jpg</image:loc>
+			<image:title>Bananen Background</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.bananenheuschrecken-rennen.info/img/bananenheuschreckenrennen-logo.svg</image:loc>
+			<image:title>Bananenheuschrecken-rennen Logo</image:title>
 		</image:image>
 	</url> 
 </urlset> 
