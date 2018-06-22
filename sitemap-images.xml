@@ -13,7 +13,7 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://www.bananenheuschrecken-rennen.info/img/beitragsbilder/getraenke.jpg</image:loc>
-			<image:title>Bananen Getr&auml;nke</image:title>
+			<image:title>Bananen Getränke</image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://www.bananenheuschrecken-rennen.info/img/beitragsbilder/heuschreckenpulver.jpg</image:loc>
@@ -45,18 +45,14 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://www.bananenheuschrecken-rennen.info/img/Landing_picture/heuschrecke.jpg</image:loc>
-			<image:title>Heuschrecke Landing Picture</image:title>
-			<image:caption>Heuschrecke landing picture HighRes resolution</image:caption>
 		</image:image>
 		<image:image>
 			<image:loc>https://www.bananenheuschrecken-rennen.info/img/Landing_picture/heuschrecke-LowRes.jpg</image:loc>
-			<image:title>Heuschrecke Landing Picture</image:title>
-			<image:caption>LowRes</image:caption>
+			<image:title>Heuschrecke Landing Picture LowRes</image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://www.bananenheuschrecken-rennen.info/img/Landing_picture/heuschrecke-MidRes.jpg</image:loc>
-			<image:title>Heuschrecke Landing Picture</image:title>
-			<image:caption>MidRes</image:caption>
+			<image:title>Heuschrecke Landing Picture MidRes</image:title>
 		</image:image>	
 		<image:image>
 			<image:loc>https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-bananenbrot.jpg</image:loc>
@@ -76,7 +72,7 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-getraenk.jpg</image:loc>
-			<image:title>Bananen Sorbet Getr&auml;nk</image:title>
+			<image:title>Bananen Sorbet Getränk</image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-kuchen.jpg</image:loc>
