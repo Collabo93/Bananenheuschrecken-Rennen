@@ -1,0 +1,187 @@
+<script type="application/ld+json">
+{
+	"itemListElement":[
+	{
+		"@type": "ListItem",
+		"position": "1",
+		"item": {
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"name": "Bananen Kuchen",
+			"author": "Elina Bintz",
+			"image": "https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-kuchen.jpg",
+			"cookTime": "PT30M",
+			"prepTime": "PT10M",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.1",
+				"reviewCount": "32",
+				"bestRating": "5",
+				"worstRating": "1"
+			}
+		}
+	},		
+	{
+		"@type": "ListItem",
+		"position": "2",
+		"item": {
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"name": "Bananen Muffins",
+			"author": "Elina Bintz",
+			"image": "https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-bananenmuffins.jpg",
+			"cookTime": "PT20M",
+			"prepTime": "PT5M",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.6",
+				"reviewCount": "97",
+				"bestRating": "5",
+				"worstRating": "1"
+			}
+		}
+	},
+	{
+		"@type": "ListItem",
+		"position": "3",
+		"item": {
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"name": "Bananen Split",
+			"author": "Elina Bintz",
+			"image": "https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-bananensplit2.jpg",
+			"cookTime": "PT5M",
+			"prepTime": "PT2M",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.4",
+				"reviewCount": "68",
+				"bestRating": "5",
+				"worstRating": "1"
+			}
+		}
+	},
+	
+	{
+		"@type": "ListItem",
+		"position": "4",
+		"item": {
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"name": "Bananen Wasser",
+			"author": "Elina Bintz",
+			"image": "https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-wasser.jpg",
+			"cookTime": "PT8M",
+			"prepTime": "PT2M",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.4",
+				"reviewCount": "128",
+				"bestRating": "5",
+				"worstRating": "1"
+			}
+		}
+	},		
+	{
+		"@type": "ListItem",
+		"position": "5",
+		"item": {
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"name": "Bananen Saft",
+			"author": "Elina Bintz",
+			"image": "https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-saft.jpg",
+			"cookTime": "PT10M",
+			"prepTime": "PT3M",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.6",
+				"reviewCount": "57",
+				"bestRating": "5",
+				"worstRating": "1"
+			}
+		}
+	},
+	{
+		"@type": "ListItem",
+		"position": "6",
+		"item": {
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"name": "Bananen Sorbet Drink",
+			"author": "Elina Bintz",
+			"image": "https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-getraenk.jpg",
+			"cookTime": "PT15M",
+			"prepTime": "PT5M",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.7",
+				"reviewCount": "147",
+				"bestRating": "5",
+				"worstRating": "1"
+			}
+		}
+	},
+	
+	{
+		"@type": "ListItem",
+		"position": "7",
+		"item": {
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"name": "Bananen Brot",
+			"author": "Elina Bintz",
+			"image": "https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-bananenbrot.jpg",
+			"cookTime": "PT50M",
+			"prepTime": "PT10M",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.3",
+				"reviewCount": "65",
+				"bestRating": "5",
+				"worstRating": "1"
+			}
+		}
+	},		
+	{
+		"@type": "ListItem",
+		"position": "8",
+		"item": {
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"name": "Bananen Pizza",
+			"author": "Elina Bintz",
+			"image": "https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-pizza.jpg",
+			"cookTime": "PT40M",
+			"prepTime": "PT15M",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.5",
+				"reviewCount": "91",
+				"bestRating": "5",
+				"worstRating": "1"
+			}
+		}
+	},
+	{
+		"@type": "ListItem",
+		"position": "9",
+		"item": {
+			"@context": "http://schema.org/",
+			"@type": "Recipe",
+			"name": "Bananen breakfast bowl",
+			"author": "Elina Bintz",
+			"image": "https://www.bananenheuschrecken-rennen.info/img/slider/bananenheuschreckenrennen-bowl.jpg",
+			"cookTime": "PT10M",
+			"prepTime": "PT5M",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.8",
+				"reviewCount": "68",
+				"bestRating": "5",
+				"worstRating": "1"
+			}
+		}
+	}]
+}
+</script>
